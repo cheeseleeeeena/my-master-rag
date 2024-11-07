@@ -1,0 +1,4043 @@
+{
+    "0": {
+        "question": "who got the first nobel prize in physics",
+        "answers": [
+            "Wilhelm Conrad R\u00f6ntgen"
+        ],
+        "contexts": [
+            {
+                "docid": "enwiki-04354304-0000-0000",
+                "score": "79.886078",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03877812-0036-0000",
+                "score": "79.871758",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03306531-0001-0000",
+                "score": "79.626572",
+                "has_answer": true
+            },
+            {
+                "docid": "enwiki-03363342-0002-0000",
+                "score": "79.408218",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05911681-0056-0000",
+                "score": "79.249367",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04038408-0071-0000",
+                "score": "78.698669",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05439849-0000-0000",
+                "score": "78.590111",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03577190-0000-0000",
+                "score": "78.449036",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03306496-0004-0001",
+                "score": "78.426125",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02475057-0090-0002",
+                "score": "78.386299",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03343805-0001-0000",
+                "score": "78.015434",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04038406-0061-0000",
+                "score": "77.981041",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03298132-0002-0000",
+                "score": "77.878014",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03363340-0002-0000",
+                "score": "77.795753",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00506212-0000-0000",
+                "score": "77.669159",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03577190-0026-0000",
+                "score": "77.375229",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03343904-0001-0000",
+                "score": "77.290466",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05911670-0001-0000",
+                "score": "77.238922",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03306507-0002-0000",
+                "score": "76.942078",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04400722-0000-0000",
+                "score": "76.913399",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04871368-0004-0000",
+                "score": "76.897682",
+                "has_answer": true
+            },
+            {
+                "docid": "enwiki-04038412-0001-0000",
+                "score": "76.880035",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04038406-0015-0000",
+                "score": "76.870560",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02674942-0000-0000",
+                "score": "76.772690",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01864126-0000-0000",
+                "score": "76.748909",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04038408-0109-0000",
+                "score": "76.634987",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05653307-0081-0000",
+                "score": "76.600044",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05980717-0002-0000",
+                "score": "76.558144",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04661059-0000-0000",
+                "score": "76.531578",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03425190-0001-0000",
+                "score": "76.337540",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04335843-0000-0000",
+                "score": "76.290642",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04038406-0064-0000",
+                "score": "76.265930",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00473167-0000-0000",
+                "score": "76.155487",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04173972-0000-0000",
+                "score": "76.072845",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02644506-0000-0000",
+                "score": "76.057930",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04075454-0006-0000",
+                "score": "75.975235",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05654871-0092-0000",
+                "score": "75.799728",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04038410-0001-0000",
+                "score": "75.765305",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02718553-0000-0000",
+                "score": "75.672913",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03572155-0000-0000",
+                "score": "75.573174",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04654140-0000-0000",
+                "score": "75.544083",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05846852-0026-0000",
+                "score": "75.540489",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05212234-0000-0000",
+                "score": "75.534271",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00506758-0000-0000",
+                "score": "75.525909",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01587853-0000-0000",
+                "score": "75.525688",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02738614-0016-0000",
+                "score": "75.387169",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02475587-0068-0000",
+                "score": "75.381393",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01864126-0002-0000",
+                "score": "75.347534",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05909281-0000-0000",
+                "score": "75.307564",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05439825-0000-0000",
+                "score": "75.306992",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02422893-0000-0000",
+                "score": "75.217972",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02421386-0000-0000",
+                "score": "75.211121",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02529998-0040-0000",
+                "score": "75.200684",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02303558-0000-0000",
+                "score": "75.189758",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03306510-0001-0000",
+                "score": "75.179115",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05108628-0065-0000",
+                "score": "75.148697",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04014789-0000-0000",
+                "score": "75.069397",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03198607-0008-0000",
+                "score": "75.050621",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03198607-0008-0000",
+                "score": "75.050613",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04038406-0056-0001",
+                "score": "75.040878",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04233906-0080-0000",
+                "score": "75.037498",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04021532-0064-0000",
+                "score": "74.921432",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02475057-0092-0000",
+                "score": "74.902893",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02475057-0094-0001",
+                "score": "74.887131",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04038408-0070-0000",
+                "score": "74.878418",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02529998-0041-0000",
+                "score": "74.867683",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03436775-0001-0000",
+                "score": "74.832458",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05911681-0105-0000",
+                "score": "74.823914",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04179262-0001-0000",
+                "score": "74.753487",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03306519-0001-0000",
+                "score": "74.695389",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05401629-0003-0000",
+                "score": "74.691879",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02845707-0000-0000",
+                "score": "74.623947",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04038406-0054-0000",
+                "score": "74.578163",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05911624-0001-0000",
+                "score": "74.568619",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01514332-0000-0000",
+                "score": "74.556862",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04038406-0002-0000",
+                "score": "74.548653",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02375736-0000-0000",
+                "score": "74.525414",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01171385-0040-0000",
+                "score": "74.511070",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01330375-0006-0001",
+                "score": "74.510406",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03651892-0000-0000",
+                "score": "74.494141",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00885441-0015-0001",
+                "score": "74.493660",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04853421-0000-0000",
+                "score": "74.488327",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02860596-0000-0000",
+                "score": "74.478096",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02079090-0000-0000",
+                "score": "74.387230",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02819886-0000-0000",
+                "score": "74.376778",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03757479-0023-0000",
+                "score": "74.364891",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02860636-0000-0000",
+                "score": "74.356911",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05042720-0004-0000",
+                "score": "74.314857",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02529998-0034-0000",
+                "score": "74.311317",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00474164-0000-0001",
+                "score": "74.267654",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00498334-0000-0000",
+                "score": "74.160828",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04709146-0000-0000",
+                "score": "74.145180",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01230729-0000-0000",
+                "score": "74.144814",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05911681-0090-0000",
+                "score": "74.050247",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03456323-0000-0000",
+                "score": "74.035645",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02646502-0001-0000",
+                "score": "73.966888",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02813868-0000-0000",
+                "score": "73.946480",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05796110-0000-0000",
+                "score": "73.899094",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02852051-0000-0000",
+                "score": "73.891121",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02710701-0000-0000",
+                "score": "73.875099",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02691686-0000-0000",
+                "score": "73.869728",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04953239-0000-0000",
+                "score": "73.860023",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04953239-0000-0000",
+                "score": "73.860023",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04622256-0000-0000",
+                "score": "73.842293",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02816314-0000-0000",
+                "score": "73.750267",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01592957-0018-0000",
+                "score": "73.745804",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04871396-0009-0000",
+                "score": "73.738045",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01410878-0002-0000",
+                "score": "73.734200",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02071568-0000-0000",
+                "score": "73.726601",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03632775-0027-0000",
+                "score": "73.722130",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03545661-0000-0000",
+                "score": "73.683128",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02034733-0000-0000",
+                "score": "73.656654",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05873933-0000-0000",
+                "score": "73.637070",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03118066-0000-0000",
+                "score": "73.622131",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03118066-0000-0000",
+                "score": "73.622131",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02752077-0000-0000",
+                "score": "73.602463",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00474164-0000-0000",
+                "score": "73.577492",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05861772-0007-0000",
+                "score": "73.575325",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00683038-0000-0000",
+                "score": "73.570847",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00495186-0000-0000",
+                "score": "73.562935",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05396396-0000-0000",
+                "score": "73.560783",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04655758-0010-0000",
+                "score": "73.547417",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05871217-0000-0000",
+                "score": "73.523918",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04871412-0011-0001",
+                "score": "73.520775",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00690806-0000-0000",
+                "score": "73.328598",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03698933-0054-0000",
+                "score": "73.174866",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01641654-0000-0000",
+                "score": "73.173111",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01150659-0000-0000",
+                "score": "73.113785",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01425549-0002-0000",
+                "score": "73.112938",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00312878-0004-0000",
+                "score": "73.088409",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04868446-0003-0000",
+                "score": "73.078705",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00591199-0000-0000",
+                "score": "73.046631",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03615391-0000-0000",
+                "score": "73.035439",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03698933-0056-0000",
+                "score": "72.990952",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01074994-0007-0000",
+                "score": "72.981186",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00691748-0000-0000",
+                "score": "72.979828",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04979391-0005-0000",
+                "score": "72.937973",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04979391-0005-0000",
+                "score": "72.937973",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00312878-0004-0001",
+                "score": "72.918839",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01641655-0004-0000",
+                "score": "72.885262",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03662910-0119-0000",
+                "score": "72.828407",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00313791-0005-0000",
+                "score": "72.784302",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03592590-0009-0000",
+                "score": "72.696877",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00738659-0000-0000",
+                "score": "72.655823",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00312878-0014-0000",
+                "score": "72.605186",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01641653-0042-0000",
+                "score": "72.545685",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00732062-0004-0001",
+                "score": "72.505959",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00731795-0010-0000",
+                "score": "72.489037",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01461969-0026-0001",
+                "score": "72.467728",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03936897-0000-0000",
+                "score": "72.445694",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03646899-0000-0000",
+                "score": "72.437561",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04871686-0010-0000",
+                "score": "72.424202",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03729634-0003-0000",
+                "score": "72.403381",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05487355-0056-0000",
+                "score": "72.232300",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01186846-0004-0000",
+                "score": "72.140549",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03118007-0000-0000",
+                "score": "72.101234",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03118007-0000-0000",
+                "score": "72.101234",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05052732-0000-0000",
+                "score": "72.058548",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03234430-0000-0000",
+                "score": "72.007645",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03234430-0000-0000",
+                "score": "72.007645",
+                "has_answer": false
+            }
+        ]
+    },
+    "1": {
+        "question": "when is the next deadpool movie being released",
+        "answers": [
+            "May 18 , 2018"
+        ],
+        "contexts": [
+            {
+                "docid": "enwiki-01562040-0052-0000",
+                "score": "88.058563",
+                "has_answer": true
+            },
+            {
+                "docid": "enwiki-01562045-0004-0000",
+                "score": "86.765396",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01562043-0002-0000",
+                "score": "86.588272",
+                "has_answer": true
+            },
+            {
+                "docid": "enwiki-01562040-0002-0000",
+                "score": "85.854752",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03302273-0015-0000",
+                "score": "85.148735",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01562043-0050-0001",
+                "score": "85.121292",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01562040-0053-0000",
+                "score": "85.017242",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01562043-0000-0000",
+                "score": "84.341736",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03324833-0001-0000",
+                "score": "83.882187",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01562043-0034-0000",
+                "score": "83.732513",
+                "has_answer": true
+            },
+            {
+                "docid": "enwiki-01562043-0049-0000",
+                "score": "83.668930",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01562040-0015-0000",
+                "score": "83.316589",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01562040-0000-0000",
+                "score": "83.257179",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01562043-0025-0001",
+                "score": "83.146858",
+                "has_answer": true
+            },
+            {
+                "docid": "enwiki-01562043-0050-0000",
+                "score": "82.939301",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01562043-0036-0000",
+                "score": "82.592186",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04229043-0001-0000",
+                "score": "82.000900",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01562043-0020-0000",
+                "score": "81.844116",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01562039-0001-0000",
+                "score": "81.318214",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05426478-0001-0000",
+                "score": "81.259460",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05932289-0027-0000",
+                "score": "80.823158",
+                "has_answer": true
+            },
+            {
+                "docid": "enwiki-01562039-0006-0001",
+                "score": "80.531677",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03324833-0000-0000",
+                "score": "80.404854",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02365085-0001-0000",
+                "score": "80.328430",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04608332-0001-0000",
+                "score": "80.084389",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05426478-0010-0000",
+                "score": "79.977295",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05921477-0031-0000",
+                "score": "79.857277",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04036026-0023-0000",
+                "score": "79.846611",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03829202-0002-0000",
+                "score": "79.841141",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00312415-0000-0000",
+                "score": "79.830582",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03654171-0003-0000",
+                "score": "79.784561",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01439154-0026-0000",
+                "score": "79.706459",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05426478-0008-0000",
+                "score": "79.679703",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05082085-0050-0001",
+                "score": "79.654221",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02786295-0001-0000",
+                "score": "79.271317",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05395250-0031-0000",
+                "score": "79.173981",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05082141-0023-0000",
+                "score": "79.129791",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03595556-0001-0000",
+                "score": "79.066055",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00943057-0020-0001",
+                "score": "79.062820",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04036026-0001-0000",
+                "score": "78.976303",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04682647-0002-0000",
+                "score": "78.974213",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818656-0001-0000",
+                "score": "78.818420",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02553854-0007-0000",
+                "score": "78.778419",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05330365-0000-0000",
+                "score": "78.751053",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05200857-0000-0000",
+                "score": "78.749031",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05905213-0016-0000",
+                "score": "78.745560",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04229038-0010-0000",
+                "score": "78.730270",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00429591-0013-0000",
+                "score": "78.715347",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05359500-0006-0002",
+                "score": "78.691605",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05424081-0002-0000",
+                "score": "78.666992",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05359502-0027-0000",
+                "score": "78.661011",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05932309-0008-0000",
+                "score": "78.651970",
+                "has_answer": true
+            },
+            {
+                "docid": "enwiki-05381517-0010-0000",
+                "score": "78.634094",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05359500-0006-0000",
+                "score": "78.633118",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05635425-0014-0000",
+                "score": "78.625526",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05082133-0045-0000",
+                "score": "78.570175",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05312834-0049-0000",
+                "score": "78.546158",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05499390-0005-0000",
+                "score": "78.542488",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04959636-0017-0000",
+                "score": "78.534554",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04959636-0017-0000",
+                "score": "78.534554",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04959636-0001-0000",
+                "score": "78.499329",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04959636-0001-0000",
+                "score": "78.499329",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02786295-0027-0000",
+                "score": "78.433029",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00847206-0012-0000",
+                "score": "78.419258",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04959638-0001-0000",
+                "score": "78.416885",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04959638-0001-0000",
+                "score": "78.416885",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818656-0003-0000",
+                "score": "78.416435",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05051513-0024-0000",
+                "score": "78.415390",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01667093-0025-0000",
+                "score": "78.404930",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05353036-0012-0000",
+                "score": "78.388039",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00902806-0001-0000",
+                "score": "78.382645",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05082133-0044-0000",
+                "score": "78.376366",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05082130-0041-0000",
+                "score": "78.373306",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05082141-0001-0000",
+                "score": "78.351852",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05426478-0009-0000",
+                "score": "78.349564",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05381517-0001-0000",
+                "score": "78.329758",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03829202-0013-0000",
+                "score": "78.313522",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04544382-0028-0000",
+                "score": "78.310852",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04034717-0000-0000",
+                "score": "78.297775",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04449563-0102-0000",
+                "score": "78.255798",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00754265-0014-0000",
+                "score": "78.148819",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05395250-0019-0000",
+                "score": "78.139229",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05932312-0041-0000",
+                "score": "78.125549",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05082141-0008-0000",
+                "score": "78.112366",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02591740-0031-0002",
+                "score": "78.104561",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03829202-0001-0000",
+                "score": "78.097679",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05932303-0046-0000",
+                "score": "78.087463",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05382165-0001-0000",
+                "score": "78.067764",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04036026-0029-0000",
+                "score": "78.064926",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03612419-0018-0000",
+                "score": "78.053917",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04035383-0003-0000",
+                "score": "78.031662",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04268138-0005-0000",
+                "score": "78.026299",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02603754-0050-0000",
+                "score": "78.018448",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00943057-0031-0000",
+                "score": "77.967896",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05803432-0040-0000",
+                "score": "77.942108",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818970-0011-0000",
+                "score": "77.925873",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04197612-0050-0000",
+                "score": "77.924858",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05082130-0010-0002",
+                "score": "77.920967",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03612421-0033-0000",
+                "score": "77.917618",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05015335-0064-0000",
+                "score": "77.913635",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00754211-0001-0000",
+                "score": "77.910957",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00312415-0003-0000",
+                "score": "77.909714",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05330365-0005-0000",
+                "score": "77.904327",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05082141-0018-0000",
+                "score": "77.897308",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04036026-0034-0000",
+                "score": "77.896027",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-06015942-0010-0000",
+                "score": "77.863663",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03716017-0005-0000",
+                "score": "77.847412",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05352862-0001-0000",
+                "score": "77.804314",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00653615-0046-0000",
+                "score": "77.772743",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00653615-0002-0000",
+                "score": "77.714531",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00653615-0045-0001",
+                "score": "77.702377",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04804934-0024-0000",
+                "score": "77.662659",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05082110-0045-0000",
+                "score": "77.648651",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02860320-0022-0000",
+                "score": "77.644043",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05657223-0018-0000",
+                "score": "77.628311",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02901134-0008-0000",
+                "score": "77.625076",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00676767-0000-0000",
+                "score": "77.619225",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02860321-0001-0000",
+                "score": "77.592918",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05905213-0001-0000",
+                "score": "77.592232",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04036026-0035-0000",
+                "score": "77.586960",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01319731-0005-0000",
+                "score": "77.573914",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05296682-0023-0000",
+                "score": "77.534119",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00429735-0001-0000",
+                "score": "77.506577",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05296676-0011-0000",
+                "score": "77.461044",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03612421-0036-0000",
+                "score": "77.454071",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01278739-0008-0000",
+                "score": "77.440224",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05321366-0030-0000",
+                "score": "77.396889",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00943057-0027-0002",
+                "score": "77.372566",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02929312-0006-0000",
+                "score": "77.350082",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05635242-0031-0000",
+                "score": "77.343567",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05082141-0002-0000",
+                "score": "77.321320",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04181573-0010-0000",
+                "score": "77.291763",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00647823-0085-0000",
+                "score": "77.290306",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00778310-0019-0000",
+                "score": "77.286812",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00943057-0023-0000",
+                "score": "77.249680",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04230149-0035-0000",
+                "score": "77.225800",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03829202-0009-0000",
+                "score": "77.191422",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04605157-0010-0000",
+                "score": "77.176910",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03982370-0034-0000",
+                "score": "77.157578",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02860321-0011-0000",
+                "score": "77.156227",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04937455-0001-0000",
+                "score": "77.141830",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04937455-0001-0000",
+                "score": "77.141830",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05557857-0001-0000",
+                "score": "77.137527",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05071503-0021-0000",
+                "score": "77.127518",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05042411-0001-0000",
+                "score": "77.120064",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05082130-0002-0000",
+                "score": "77.088806",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00429591-0001-0000",
+                "score": "77.085510",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00429592-0009-0000",
+                "score": "77.063866",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05330365-0004-0000",
+                "score": "77.050682",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05331185-0043-0000",
+                "score": "77.035660",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00490848-0010-0000",
+                "score": "77.021347",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04036026-0015-0000",
+                "score": "77.007774",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04937456-0008-0000",
+                "score": "76.960068",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04937456-0008-0000",
+                "score": "76.960068",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04544398-0023-0000",
+                "score": "76.950912",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05525397-0003-0000",
+                "score": "76.949791",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03201644-0022-0000",
+                "score": "76.939758",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04749917-0001-0000",
+                "score": "76.884811",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05635090-0003-0000",
+                "score": "76.861656",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03829202-0010-0000",
+                "score": "76.798630",
+                "has_answer": false
+            }
+        ]
+    },
+    "2": {
+        "question": "which mode is used for short wave broadcast service",
+        "answers": [
+            "Olivia",
+            "MFSK"
+        ],
+        "contexts": [
+            {
+                "docid": "enwiki-04963571-0022-0000",
+                "score": "84.234680",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963571-0022-0000",
+                "score": "84.234680",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03420679-0000-0000",
+                "score": "83.903328",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03420679-0001-0000",
+                "score": "83.657684",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963566-0000-0000",
+                "score": "82.450516",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963566-0000-0000",
+                "score": "82.450516",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963571-0000-0000",
+                "score": "82.305107",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963571-0000-0000",
+                "score": "82.305107",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963571-0020-0000",
+                "score": "82.186363",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963571-0020-0000",
+                "score": "82.186363",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03671697-0013-0000",
+                "score": "81.859032",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03420679-0002-0000",
+                "score": "81.736198",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963566-0001-0000",
+                "score": "81.686661",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963566-0001-0000",
+                "score": "81.686661",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02560095-0007-0001",
+                "score": "81.652634",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05198783-0000-0000",
+                "score": "81.523331",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963571-0016-0000",
+                "score": "81.485306",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963571-0016-0000",
+                "score": "81.485306",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963571-0002-0000",
+                "score": "81.460144",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963571-0002-0000",
+                "score": "81.460144",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03671697-0000-0000",
+                "score": "81.100166",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963571-0021-0000",
+                "score": "81.072586",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963571-0021-0000",
+                "score": "81.072586",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963571-0019-0000",
+                "score": "80.827423",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963571-0019-0000",
+                "score": "80.827423",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963571-0024-0000",
+                "score": "80.746010",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04963571-0024-0000",
+                "score": "80.746010",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00546576-0008-0000",
+                "score": "80.690285",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02069466-0034-0000",
+                "score": "80.360718",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03798567-0006-0000",
+                "score": "80.170761",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02627167-0035-0000",
+                "score": "80.143211",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00825952-0010-0000",
+                "score": "79.857979",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03798567-0000-0000",
+                "score": "79.822929",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02458038-0007-0000",
+                "score": "79.749496",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03671697-0015-0000",
+                "score": "79.538300",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03671697-0014-0000",
+                "score": "79.368271",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04525797-0017-0000",
+                "score": "79.324295",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01488782-0007-0000",
+                "score": "79.236618",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04198308-0020-0000",
+                "score": "79.186516",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03671697-0002-0000",
+                "score": "79.136047",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03930045-0001-0000",
+                "score": "79.129532",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03671697-0006-0001",
+                "score": "78.997353",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00563653-0026-0000",
+                "score": "78.915398",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03798567-0002-0000",
+                "score": "78.841652",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03930134-0002-0000",
+                "score": "78.726746",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03671685-0000-0000",
+                "score": "78.701935",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03420679-0003-0000",
+                "score": "78.622910",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03930137-0001-0000",
+                "score": "78.599403",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01926813-0042-0000",
+                "score": "78.593048",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03671697-0003-0000",
+                "score": "78.556183",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05854486-0002-0000",
+                "score": "78.520790",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03671697-0004-0000",
+                "score": "78.472893",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01404053-0000-0000",
+                "score": "78.425903",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03420679-0012-0000",
+                "score": "78.336647",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03420679-0010-0000",
+                "score": "78.228661",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03444670-0010-0000",
+                "score": "78.182846",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05631278-0000-0000",
+                "score": "78.172745",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05203357-0008-0000",
+                "score": "78.147026",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04525356-0011-0000",
+                "score": "78.126389",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00360765-0049-0000",
+                "score": "78.123444",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05854486-0005-0000",
+                "score": "78.064301",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00360765-0000-0000",
+                "score": "78.034767",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03420679-0009-0000",
+                "score": "78.032028",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02082663-0000-0000",
+                "score": "78.016953",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03798567-0005-0000",
+                "score": "77.963837",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05902599-0023-0000",
+                "score": "77.957428",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03798567-0001-0000",
+                "score": "77.921478",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01404053-0014-0000",
+                "score": "77.903549",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05710909-0000-0000",
+                "score": "77.857010",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02458363-0001-0000",
+                "score": "77.852798",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01488782-0006-0000",
+                "score": "77.821915",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02069466-0036-0000",
+                "score": "77.793030",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03420679-0005-0000",
+                "score": "77.788391",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03671697-0012-0000",
+                "score": "77.768723",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03867533-0001-0000",
+                "score": "77.750610",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03930137-0000-0000",
+                "score": "77.658096",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05249624-0002-0000",
+                "score": "77.657204",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03671697-0010-0000",
+                "score": "77.619133",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05902616-0003-0000",
+                "score": "77.615593",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02065633-0036-0000",
+                "score": "77.590286",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01034025-0012-0000",
+                "score": "77.573044",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01166920-0005-0000",
+                "score": "77.544258",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05854489-0000-0000",
+                "score": "77.519325",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04525797-0012-0000",
+                "score": "77.518860",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03671697-0001-0000",
+                "score": "77.492340",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01034114-0003-0000",
+                "score": "77.475357",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04525913-0000-0000",
+                "score": "77.458450",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03420679-0013-0000",
+                "score": "77.447487",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03444826-0006-0000",
+                "score": "77.415985",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05631342-0002-0000",
+                "score": "77.409515",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04525913-0004-0001",
+                "score": "77.396637",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02069466-0000-0000",
+                "score": "77.300568",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03326624-0006-0000",
+                "score": "77.298615",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01404068-0018-0000",
+                "score": "77.292847",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01488782-0024-0000",
+                "score": "77.291031",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01034114-0007-0000",
+                "score": "77.284668",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02069466-0020-0000",
+                "score": "77.192528",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01404053-0010-0000",
+                "score": "77.173431",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01432463-0005-0000",
+                "score": "77.123215",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01531406-0000-0000",
+                "score": "77.097549",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05631312-0105-0000",
+                "score": "77.088821",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04525897-0019-0001",
+                "score": "77.034233",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04525900-0005-0000",
+                "score": "77.013039",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05710896-0000-0000",
+                "score": "76.996567",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05631342-0003-0000",
+                "score": "76.882446",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02069466-0015-0000",
+                "score": "76.825577",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05813714-0006-0000",
+                "score": "76.821922",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05631342-0001-0000",
+                "score": "76.790062",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03444670-0006-0000",
+                "score": "76.771645",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04479072-0035-0000",
+                "score": "76.763367",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01916465-0002-0000",
+                "score": "76.714615",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01034153-0003-0000",
+                "score": "76.669174",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04043634-0019-0000",
+                "score": "76.642868",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05180332-0037-0001",
+                "score": "76.627975",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02458038-0000-0000",
+                "score": "76.618820",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04526265-0015-0000",
+                "score": "76.618065",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01034025-0008-0000",
+                "score": "76.602631",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05343280-0001-0000",
+                "score": "76.595032",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01926813-0004-0000",
+                "score": "76.590157",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03444865-0002-0000",
+                "score": "76.579597",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04525897-0018-0002",
+                "score": "76.553551",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03444670-0001-0000",
+                "score": "76.529144",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04524034-0034-0000",
+                "score": "76.493279",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05854492-0000-0000",
+                "score": "76.489601",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05854486-0000-0000",
+                "score": "76.458206",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01926813-0000-0000",
+                "score": "76.405617",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02458038-0000-0001",
+                "score": "76.405144",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02458275-0042-0000",
+                "score": "76.390564",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05902485-0010-0000",
+                "score": "76.334259",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03419202-0012-0000",
+                "score": "76.327194",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04756235-0005-0000",
+                "score": "76.247238",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05631271-0009-0000",
+                "score": "76.237854",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01772504-0020-0000",
+                "score": "76.202972",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01994305-0002-0000",
+                "score": "76.192802",
+                "has_answer": true
+            },
+            {
+                "docid": "enwiki-03487127-0000-0000",
+                "score": "76.132446",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03444826-0000-0000",
+                "score": "76.084747",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05300665-0062-0000",
+                "score": "76.067650",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03490668-0000-0000",
+                "score": "76.047943",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03490616-0001-0000",
+                "score": "75.995926",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02563172-0023-0000",
+                "score": "75.961853",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05902575-0003-0000",
+                "score": "75.894501",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05631312-0101-0000",
+                "score": "75.855736",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05932125-0011-0000",
+                "score": "75.700089",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05631312-0106-0000",
+                "score": "75.599274",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02094815-0025-0001",
+                "score": "75.537727",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01793824-0024-0000",
+                "score": "75.518494",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01794341-0016-0000",
+                "score": "75.463669",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02069487-0000-0000",
+                "score": "75.336227",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05631342-0015-0000",
+                "score": "75.306694",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01794359-0012-0000",
+                "score": "75.223175",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05902525-0026-0000",
+                "score": "74.960815",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01794330-0008-0000",
+                "score": "74.929695",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05077502-0001-0000",
+                "score": "74.894447",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05902616-0027-0000",
+                "score": "74.864960",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05902616-0003-0001",
+                "score": "74.845161",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00449379-0009-0000",
+                "score": "74.827896",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05902606-0030-0000",
+                "score": "74.826950",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05166874-0012-0000",
+                "score": "74.590454",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02069458-0000-0000",
+                "score": "74.458603",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02065633-0049-0000",
+                "score": "74.454590",
+                "has_answer": false
+            }
+        ]
+    },
+    "3": {
+        "question": "the south west wind blows across nigeria between",
+        "answers": [
+            "till September"
+        ],
+        "contexts": [
+            {
+                "docid": "enwiki-02141212-0005-0000",
+                "score": "75.410492",
+                "has_answer": true
+            },
+            {
+                "docid": "enwiki-02141212-0011-0001",
+                "score": "72.796043",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02141212-0014-0000",
+                "score": "72.452744",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05835501-0000-0000",
+                "score": "72.120819",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02141212-0011-0000",
+                "score": "72.096970",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04045596-0000-0000",
+                "score": "72.075989",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04135225-0011-0000",
+                "score": "72.003677",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02141212-0016-0000",
+                "score": "71.575165",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05896773-0017-0000",
+                "score": "71.418266",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05835522-0000-0000",
+                "score": "71.411766",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05542800-0007-0000",
+                "score": "71.405548",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02371300-0000-0000",
+                "score": "71.381325",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02141212-0013-0000",
+                "score": "71.252487",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05970387-0008-0000",
+                "score": "70.965088",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05835501-0003-0000",
+                "score": "70.883492",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05065085-0001-0000",
+                "score": "70.782440",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00758280-0018-0001",
+                "score": "70.569412",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05043113-0001-0000",
+                "score": "70.547836",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01841494-0011-0000",
+                "score": "70.495750",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05896773-0015-0000",
+                "score": "70.291061",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05835501-0001-0000",
+                "score": "70.266953",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05043113-0015-0000",
+                "score": "70.266701",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02141212-0015-0000",
+                "score": "70.197182",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05835522-0002-0000",
+                "score": "70.170891",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02141212-0010-0000",
+                "score": "70.042679",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04436257-0003-0000",
+                "score": "70.001915",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01741590-0004-0000",
+                "score": "69.967621",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05542800-0000-0000",
+                "score": "69.746941",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818604-0013-0000",
+                "score": "69.624878",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05835522-0002-0001",
+                "score": "69.609833",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05066267-0000-0000",
+                "score": "69.602112",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02141212-0010-0001",
+                "score": "69.570831",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818629-0025-0002",
+                "score": "69.563316",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01342806-0014-0000",
+                "score": "69.538139",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03444808-0007-0000",
+                "score": "69.454506",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05092285-0015-0000",
+                "score": "69.451965",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04197522-0000-0000",
+                "score": "69.438339",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01342806-0003-0000",
+                "score": "69.403214",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04045596-0001-0000",
+                "score": "69.394470",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01783744-0027-0000",
+                "score": "69.353172",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05570585-0001-0000",
+                "score": "69.250298",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02141212-0012-0000",
+                "score": "69.237358",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04436257-0004-0000",
+                "score": "69.215286",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01917261-0021-0000",
+                "score": "69.195557",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00955285-0000-0000",
+                "score": "69.169861",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02141212-0004-0001",
+                "score": "69.120926",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04045596-0002-0000",
+                "score": "69.110687",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04054794-0001-0000",
+                "score": "69.083542",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02141002-0007-0000",
+                "score": "69.058197",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00955285-0007-0000",
+                "score": "69.053200",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02141212-0003-0000",
+                "score": "69.045105",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05839436-0004-0000",
+                "score": "69.039207",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818629-0024-0000",
+                "score": "68.964211",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04016662-0050-0000",
+                "score": "68.893997",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04436257-0005-0000",
+                "score": "68.824883",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02602476-0006-0000",
+                "score": "68.823463",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02458765-0022-0000",
+                "score": "68.812546",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00546578-0005-0000",
+                "score": "68.763718",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00799064-0003-0001",
+                "score": "68.750763",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01343050-0036-0000",
+                "score": "68.720093",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02629630-0000-0000",
+                "score": "68.673851",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03444808-0000-0000",
+                "score": "68.626656",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818604-0002-0000",
+                "score": "68.623917",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05836018-0000-0000",
+                "score": "68.605431",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02371300-0001-0000",
+                "score": "68.602356",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05830685-0020-0000",
+                "score": "68.517838",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04128881-0003-0000",
+                "score": "68.513817",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818604-0032-0000",
+                "score": "68.483711",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01342886-0006-0001",
+                "score": "68.419296",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05835501-0004-0000",
+                "score": "68.392395",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05066267-0001-0000",
+                "score": "68.391098",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05065501-0000-0000",
+                "score": "68.383369",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04058149-0000-0000",
+                "score": "68.368523",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05065501-0001-0000",
+                "score": "68.325394",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05896906-0008-0001",
+                "score": "68.259659",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05896773-0016-0000",
+                "score": "68.257019",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03098373-0004-0000",
+                "score": "68.236923",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01342806-0012-0000",
+                "score": "68.226631",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818630-0001-0000",
+                "score": "68.196587",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818604-0030-0000",
+                "score": "68.091347",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00758280-0018-0000",
+                "score": "68.086159",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01342806-0013-0000",
+                "score": "68.070580",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05835501-0007-0000",
+                "score": "68.058365",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05970387-0006-0000",
+                "score": "67.991531",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00955285-0001-0000",
+                "score": "67.970421",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818630-0006-0000",
+                "score": "67.919518",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04092648-0002-0000",
+                "score": "67.910629",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04534446-0003-0000",
+                "score": "67.894966",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02602476-0002-0000",
+                "score": "67.827339",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05835501-0005-0000",
+                "score": "67.812447",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01342886-0005-0000",
+                "score": "67.811157",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05171170-0007-0000",
+                "score": "67.805138",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05542800-0006-0000",
+                "score": "67.803535",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02141212-0001-0000",
+                "score": "67.797852",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05569890-0000-0000",
+                "score": "67.795410",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05896773-0018-0000",
+                "score": "67.756798",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05493817-0051-0000",
+                "score": "67.755302",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01699347-0007-0000",
+                "score": "67.722275",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02782114-0034-0000",
+                "score": "67.708107",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01899414-0000-0000",
+                "score": "67.694839",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05092285-0014-0000",
+                "score": "67.673546",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02141212-0002-0000",
+                "score": "67.673149",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05896773-0000-0000",
+                "score": "67.652611",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05897038-0016-0000",
+                "score": "67.608414",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05896906-0007-0000",
+                "score": "67.600128",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818630-0003-0000",
+                "score": "67.531471",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00955285-0005-0000",
+                "score": "67.515564",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04430109-0027-0000",
+                "score": "67.450539",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02013483-0035-0000",
+                "score": "67.409119",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05066256-0000-0000",
+                "score": "67.388359",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818604-0029-0000",
+                "score": "67.380814",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03155437-0050-0000",
+                "score": "67.366898",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03155437-0050-0000",
+                "score": "67.366898",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05570587-0006-0000",
+                "score": "67.334351",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01471915-0005-0000",
+                "score": "67.314911",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05896773-0018-0001",
+                "score": "67.291954",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05062175-0002-0000",
+                "score": "67.261719",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05194638-0005-0000",
+                "score": "67.246071",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05896893-0001-0000",
+                "score": "67.229736",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04534267-0025-0000",
+                "score": "67.228676",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03260611-0007-0000",
+                "score": "67.142555",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03260611-0007-0000",
+                "score": "67.142548",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05897037-0005-0000",
+                "score": "67.138344",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03701089-0008-0000",
+                "score": "67.114220",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818604-0024-0000",
+                "score": "67.107094",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818629-0022-0001",
+                "score": "67.102875",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04059468-0002-0000",
+                "score": "67.096428",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02066225-0002-0000",
+                "score": "67.045303",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04143288-0000-0000",
+                "score": "67.017990",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01772443-0017-0000",
+                "score": "66.858040",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05542800-0009-0000",
+                "score": "66.830109",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05542800-0008-0000",
+                "score": "66.813858",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01783744-0033-0000",
+                "score": "66.781929",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04168997-0000-0000",
+                "score": "66.760483",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05570671-0005-0000",
+                "score": "66.702713",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818604-0016-0000",
+                "score": "66.693253",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05043113-0028-0000",
+                "score": "66.657104",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04017026-0020-0001",
+                "score": "66.635078",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01472115-0008-0000",
+                "score": "66.627579",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818604-0031-0000",
+                "score": "66.608017",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01783754-0005-0000",
+                "score": "66.601517",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05161881-0000-0000",
+                "score": "66.583847",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04386431-0041-0000",
+                "score": "66.574509",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05570603-0004-0000",
+                "score": "66.520340",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04054794-0016-0000",
+                "score": "66.511093",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818604-0023-0000",
+                "score": "66.465469",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00631668-0002-0000",
+                "score": "66.394119",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818630-0008-0000",
+                "score": "66.392151",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03818604-0019-0000",
+                "score": "66.374054",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00955285-0002-0000",
+                "score": "66.326660",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04016662-0001-0000",
+                "score": "66.256798",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00955285-0004-0000",
+                "score": "66.227982",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03654795-0006-0000",
+                "score": "66.177155",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04017023-0002-0000",
+                "score": "66.102730",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04016662-0048-0001",
+                "score": "66.074898",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00253024-0001-0000",
+                "score": "66.073242",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00943661-0000-0000",
+                "score": "65.984787",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00631666-0000-0000",
+                "score": "65.969086",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00296701-0000-0000",
+                "score": "65.922943",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03701089-0016-0000",
+                "score": "65.874245",
+                "has_answer": false
+            }
+        ]
+    },
+    "4": {
+        "question": "what does hp mean in war and order",
+        "answers": [
+            "hit points or health points"
+        ],
+        "contexts": [
+            {
+                "docid": "enwiki-01378503-0000-0000",
+                "score": "75.688126",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05201506-0007-0000",
+                "score": "73.665771",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04150631-0003-0000",
+                "score": "72.947990",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03191864-0029-0000",
+                "score": "72.920471",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03191864-0029-0000",
+                "score": "72.920471",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05521533-0000-0000",
+                "score": "72.855011",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04150631-0002-0001",
+                "score": "72.677391",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03757598-0000-0000",
+                "score": "72.537392",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02398426-0000-0000",
+                "score": "72.347649",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04150631-0002-0000",
+                "score": "72.330208",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01196202-0000-0000",
+                "score": "72.328796",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01419575-0002-0000",
+                "score": "72.322739",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378739-0000-0000",
+                "score": "72.123993",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378760-0000-0000",
+                "score": "71.914940",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02134989-0000-0000",
+                "score": "71.821266",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05201506-0012-0001",
+                "score": "71.537216",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05800624-0001-0001",
+                "score": "71.500961",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03239705-0003-0000",
+                "score": "71.481514",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03239705-0003-0000",
+                "score": "71.481514",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05855166-0012-0000",
+                "score": "71.324066",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05802744-0005-0000",
+                "score": "71.314110",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02619830-0023-0000",
+                "score": "71.234444",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378615-0001-0000",
+                "score": "71.180954",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02133707-0000-0000",
+                "score": "71.120171",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378485-0000-0000",
+                "score": "71.115677",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04150631-0000-0000",
+                "score": "70.963181",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05201784-0046-0000",
+                "score": "70.860619",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04150648-0006-0000",
+                "score": "70.843536",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04150648-0000-0000",
+                "score": "70.841591",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378739-0003-0000",
+                "score": "70.804390",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03757699-0085-0000",
+                "score": "70.674774",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02458477-0001-0000",
+                "score": "70.655563",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05800736-0003-0000",
+                "score": "70.629028",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378477-0000-0000",
+                "score": "70.622124",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02331960-0001-0000",
+                "score": "70.583618",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05201516-0000-0000",
+                "score": "70.564568",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01419575-0011-0000",
+                "score": "70.531158",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02331967-0003-0000",
+                "score": "70.525688",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05201482-0000-0000",
+                "score": "70.522812",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05201506-0012-0000",
+                "score": "70.519272",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03191864-0032-0000",
+                "score": "70.507599",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03191864-0032-0000",
+                "score": "70.507599",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02503766-0000-0000",
+                "score": "70.505402",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378739-0001-0000",
+                "score": "70.470787",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03757699-0086-0000",
+                "score": "70.444351",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04143749-0002-0000",
+                "score": "70.420448",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04423588-0000-0000",
+                "score": "70.385590",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04150648-0007-0000",
+                "score": "70.352539",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01196202-0001-0000",
+                "score": "70.348930",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378503-0042-0000",
+                "score": "70.308327",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378490-0000-0000",
+                "score": "70.294167",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03760544-0020-0000",
+                "score": "70.271980",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05201506-0008-0000",
+                "score": "70.235222",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02319779-0001-0000",
+                "score": "70.226654",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03757579-0033-0000",
+                "score": "70.161697",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02134985-0000-0000",
+                "score": "70.148712",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04143749-0003-0000",
+                "score": "70.123398",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05800962-0006-0000",
+                "score": "70.073372",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05199856-0032-0000",
+                "score": "70.069336",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04569440-0000-0000",
+                "score": "70.031189",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05534757-0000-0000",
+                "score": "70.021713",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04423588-0001-0000",
+                "score": "69.991882",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02398043-0000-0000",
+                "score": "69.977562",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00834293-0000-0000",
+                "score": "69.966736",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05201784-0041-0000",
+                "score": "69.958549",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378563-0000-0000",
+                "score": "69.926277",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05201506-0018-0000",
+                "score": "69.872803",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378485-0005-0000",
+                "score": "69.849968",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03131176-0006-0000",
+                "score": "69.769531",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03131176-0006-0000",
+                "score": "69.769524",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02619830-0024-0000",
+                "score": "69.757164",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05574704-0016-0000",
+                "score": "69.732819",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04451534-0000-0000",
+                "score": "69.712875",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378503-0008-0000",
+                "score": "69.674744",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378503-0026-0000",
+                "score": "69.666100",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03170283-0000-0000",
+                "score": "69.665749",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03170283-0000-0000",
+                "score": "69.665749",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378565-0008-0000",
+                "score": "69.659386",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378503-0027-0000",
+                "score": "69.651054",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02283833-0008-0000",
+                "score": "69.621002",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01419585-0024-0000",
+                "score": "69.612755",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04143749-0000-0000",
+                "score": "69.604675",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02503763-0000-0000",
+                "score": "69.576782",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02011738-0000-0000",
+                "score": "69.569206",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05904885-0021-0000",
+                "score": "69.560921",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378449-0001-0000",
+                "score": "69.558327",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01573027-0004-0000",
+                "score": "69.556252",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05800962-0003-0000",
+                "score": "69.541748",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05129608-0000-0000",
+                "score": "69.513535",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00680592-0000-0000",
+                "score": "69.489502",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02135001-0000-0000",
+                "score": "69.477455",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02082821-0000-0000",
+                "score": "69.473106",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04143684-0002-0000",
+                "score": "69.450539",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00384844-0009-0001",
+                "score": "69.378120",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04197327-0002-0000",
+                "score": "69.367599",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01378565-0000-0000",
+                "score": "69.359680",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00680597-0000-0000",
+                "score": "69.352776",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04150725-0000-0000",
+                "score": "69.349495",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02331796-0004-0000",
+                "score": "69.344963",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05800939-0018-0000",
+                "score": "69.219322",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04150725-0017-0000",
+                "score": "69.214508",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02619863-0014-0000",
+                "score": "69.205124",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02134986-0005-0000",
+                "score": "69.200859",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01573895-0000-0000",
+                "score": "69.128860",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05348418-0001-0000",
+                "score": "69.121246",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03191864-0000-0000",
+                "score": "69.110054",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03191864-0000-0000",
+                "score": "69.110054",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01989867-0002-0001",
+                "score": "69.101883",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01265296-0000-0000",
+                "score": "69.094727",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05574704-0000-0000",
+                "score": "69.075447",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04443993-0000-0000",
+                "score": "69.072250",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05800848-0005-0000",
+                "score": "69.047531",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00834293-0001-0000",
+                "score": "69.044655",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03133695-0000-0000",
+                "score": "69.033752",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03133695-0000-0000",
+                "score": "69.033752",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04154443-0002-0000",
+                "score": "69.032440",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03601608-0001-0000",
+                "score": "69.001190",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03047527-0001-0000",
+                "score": "69.000977",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02011738-0001-0000",
+                "score": "68.998184",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05361671-0006-0000",
+                "score": "68.983841",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02134985-0003-0000",
+                "score": "68.977066",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05113044-0001-0000",
+                "score": "68.975014",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01989867-0002-0000",
+                "score": "68.973587",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02134813-0001-0000",
+                "score": "68.879684",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03293825-0033-0000",
+                "score": "68.870560",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01562087-0000-0000",
+                "score": "68.860390",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02134986-0000-0000",
+                "score": "68.856644",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00749994-0001-0000",
+                "score": "68.854919",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-04921164-0000-0000",
+                "score": "68.810410",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00680468-0001-0000",
+                "score": "68.629150",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02134967-0022-0000",
+                "score": "68.615128",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01982729-0000-0000",
+                "score": "68.539658",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02135096-0000-0000",
+                "score": "68.536690",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02134985-0017-0000",
+                "score": "68.491135",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00680597-0001-0000",
+                "score": "68.476357",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02134989-0001-0000",
+                "score": "68.471123",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01989867-0000-0000",
+                "score": "68.357986",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02088180-0001-0000",
+                "score": "68.265991",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01971472-0004-0000",
+                "score": "68.228699",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01110389-0007-0000",
+                "score": "68.222404",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-03940492-0000-0000",
+                "score": "68.205582",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00680212-0003-0000",
+                "score": "68.186127",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00842918-0000-0000",
+                "score": "68.100899",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00680782-0001-0000",
+                "score": "68.097794",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01743579-0002-0000",
+                "score": "68.064423",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01977267-0006-0000",
+                "score": "68.057190",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01265164-0001-0000",
+                "score": "68.057114",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05129608-0004-0000",
+                "score": "68.045105",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-01818989-0000-0000",
+                "score": "67.988762",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00843126-0008-0000",
+                "score": "67.935669",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-05113044-0000-0000",
+                "score": "67.916473",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00551884-0004-0000",
+                "score": "67.909973",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00834293-0002-0000",
+                "score": "67.902000",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02927554-0009-0000",
+                "score": "67.853745",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-02865948-0002-0000",
+                "score": "67.840637",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00843116-0000-0000",
+                "score": "67.762703",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00679038-0001-0000",
+                "score": "67.724861",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00834293-0004-0000",
+                "score": "67.663124",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00843136-0001-0000",
+                "score": "67.588257",
+                "has_answer": false
+            },
+            {
+                "docid": "enwiki-00678134-0000-0000",
+                "score": "67.510277",
+                "has_answer": false
+            }
+        ]
+    }
+}

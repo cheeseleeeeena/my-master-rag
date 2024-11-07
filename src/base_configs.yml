@@ -1,0 +1,26 @@
+taskID: B3
+
+dirs:
+  root: /workspace/P76125041/my-master-rag
+  indexes:
+    root: data/samples/factoid_wiki_passage
+    jsonl: jsonl
+    faiss: faiss
+    lucene: lucene
+    # pdf: v4-pdf
+    # docx: v4-docx
+    # pdf-pages: v4-pdf-pages
+    # csv: v4-csv
+  # output:
+  #   root: data/DBv6
+  #   jsonl: jsonl
+  #   faiss: faiss
+  #   lucene: lucene
+
+preprocessor:
+  min_doc_len: 30000
+
+eval:
+  top_k: 
+    - 5
+    - 20
