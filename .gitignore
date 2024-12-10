@@ -2,6 +2,10 @@
 data/*
 !data/.gitkeep
 !data/samples
+experiments/B4/qasper
+
+# envs
+.env
 
 # MacOS
 .DS_Store

@@ -1,0 +1,58 @@
+These instructions apply to section-based themes.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Section-based themes include Responsive 6.0+, Retina 4.0+, Parallax 3.0+, Turbo 2.0+, and Mobilia 5.0+.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+["What theme version am I using?"nOn your Collections pages & Featured Collections sections, you can easily show the secondary image of a product on hover by enabling one of the theme's built-in settings!nYour Collection pages & Featured Collections sections will now display the secondary product image just by hovering over that product image thumbnail."]
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The feature only applies to Collection pages and Featured Collections sections of the section-based themes listed in the text material.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The content is about enabling the secondary image hover feature on Collection pages and Featured Collections sections.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The user is the person who wants to enable the secondary image hover feature.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The steps to enable the secondary image hover feature are provided.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The steps include logging in to your Shopify account and going to your Online Store.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The steps include clicking on Customize theme for the section-based theme.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[34 Navigate to the Collection pages or Featured Collections section where you want to enable the secondary image hover feature."n45678910111213141516171819202122232425262728293132343536373839404142434445464748495051525556575861624758616247586162475861624758616247586162475861624758616247586162475861624758616247586162475861624758616247586162475861624758616247586162475861624758616247586162475861624758616247586162475861624758616247586162475861624758616247586162475861624758616247586162475861624758616247586162475861624758616247586162475861624758616247586162475861624758616247586162475861624758616247586162
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The content is about a user who doesn't have access to the store's theme information.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The user is having trouble finding the setting.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The best thing to do is refer to your theme's documentation.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The location and labeling of settings can vary between themes.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The user is having trouble finding the setting.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The best thing to do is refer to your theme's documentation.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The location and labeling of settings can vary between themes.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Go to the shopify theme store
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The secondary image hover feature may or may not work for your Quick Shop section, depending on the configuration of your theme.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Some themes include the secondary image hover feature in the Quick Shop section by default.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Other themes may require additional customization for the secondary image hover feature.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The feature is available for the Quick Shop section of your theme.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+To check if the feature is available, follow the following steps:nn1. Go to the Quick Shop section where you would like to enable the feature.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Click on the Quick Shop settings icon (gear icon).
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Look for 'Image display' or 'Image hover'.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+If available, select 'Show secondary image on hover'.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Save the changes.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+If this option is not available in your Quick Shop section settings, you may need to reach out to your theme developer for assistance with customizing your Quick Shop section to include this feature.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The role of the theme developer is to provide assistance with customizing your Quick Shop section.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
