@@ -1,5 +1,8 @@
 name: exp-b4
 channels:
+  - pytorch
+  - nvidia
+  - conda-forge
   - defaults
 dependencies:
   - _libgcc_mutex=0.1
