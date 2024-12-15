@@ -4,6 +4,7 @@ from typing import List, Dict, Tuple, Optional, Union
 from sentence_transformers import SentenceTransformer
 import jsonlines
 import torch
+import re
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 
@@ -87,7 +88,10 @@ if __name__ == "__main__":
         topk_para_scores: List[Tuple[int, str, float]] = sorted(
             para_scores, key=lambda x: x[2], reverse=True
         )[:topk]
-        topk_paras: List[str] = [para for _, para, _ in topk_para_scores]
+        topk_paras: List[str] = [
+            re.sub(r"^.*?\n\nText: ", "", para, flags=re.DOTALL)
+            for _, para, _ in topk_para_scores
+        ]
         # print(question_id)
         # print("*" * 100)
         predictions["question_id"] = question_id
@@ -102,10 +106,15 @@ if __name__ == "__main__":
         answer = qa_model.answer_question(context, question_text)
         predictions["predicted_answer"] = answer
 
+        prediction_file: Path = Path("qasper/test_predictions_final.jsonl")
+        with open(prediction_file, "a+", encoding="utf-8") as f:
+            f.write(json.dumps(predictions, ensure_ascii=False))
+            f.write("\n")
+
         all_predictions.append(predictions)
 
-    prediction_file: Path = Path("qasper/test_predictions.jsonl")
-    with open(prediction_file, "w+", encoding="utf-8") as f:
-        for pred in all_predictions:
-            f.write(json.dumps(pred, ensure_ascii=False))
-            f.write("\n")
+    # prediction_file: Path = Path("qasper/test_predictions_final.jsonl")
+    # with open(prediction_file, "w+", encoding="utf-8") as f:
+    #     for pred in all_predictions:
+    #         f.write(json.dumps(pred, ensure_ascii=False))
+    #         f.write("\n")
