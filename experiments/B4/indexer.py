@@ -8,6 +8,7 @@ import os
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
 from typing import List, Dict, Set
+import utils
 
 # Constants
 os.environ["HF_HOME"] = "/workspace/P76125041/.cache/"
@@ -56,18 +57,13 @@ def encode_paragraphs(
     return para_embeddings
 
 
-def load_json(file_path: Path) -> Dict:
-    """Utility to load JSON files."""
-    with open(file_path, "r", encoding="utf-8") as file:
-        return json.load(file)
-
 
 if __name__ == "__main__":
     start_time = time.time()
 
     # Load data files
-    test_papers = load_json(Path("qasper/test_papers.json"))
-    test_questions = load_json(Path("qasper/test_questions.json"))
+    test_papers = utils.load_json(Path("qasper/test_papers.json"))
+    test_questions = utils.load_json(Path("qasper/test_questions.json"))
 
     # Initialize retriever model
     embedding_model = SentenceTransformer(retriever_map[RETRIEVER])
