@@ -1,4 +1,5 @@
 # works fine in "cuda12" env on 9104
+# works fine on "vllm" env on 9104
 # 50 secs for 416 papers.
 
 import json
@@ -13,17 +14,13 @@ import utils
 # Constants
 os.environ["HF_HOME"] = "/workspace/P76125041/.cache/"
 RETRIEVER = "sbert"
-MODE = "notitle"
-CUDA_DEVICE = 1
+MODE = "full"
+CUDA_DEVICE = 0
 
 # Model paths
 retriever_map: Dict[str, str] = {
     "sbert": "sentence-transformers/multi-qa-mpnet-base-cos-v1",
-    "stella": "/workspace/P76125041/models/stella_en_400M_v5",
-}
-
-reader_map: Dict[str, str] = {
-    "unified": "allenai/unifiedqa-v2-t5-3b-1363200",
+    "stella": "/workspace/P76125041/models/stella_en_400M_v5"
 }
 
 
@@ -64,10 +61,15 @@ if __name__ == "__main__":
     # Load data files
     test_papers = utils.load_json(Path("qasper/test_papers.json"))
     test_questions = utils.load_json(Path("qasper/test_questions.json"))
-
-    # Initialize retriever model
-    embedding_model = SentenceTransformer(retriever_map[RETRIEVER])
-    embedding_model.to(f"cuda:{CUDA_DEVICE}")
+    
+    # initialize retriever
+    ### Stella
+    if RETRIEVER == "stella":
+        embedding_model = SentenceTransformer(retriever_map.get(RETRIEVER), trust_remote_code=True).cuda()
+    ### SBERT
+    else:
+        embedding_model = SentenceTransformer(retriever_map[RETRIEVER])
+        embedding_model.to(f"cuda:{CUDA_DEVICE}")
 
     # Prepare paragraph embeddings
     all_paper_ids: Set[str] = {q["from_paper"] for q in test_questions.values()}
@@ -86,7 +88,7 @@ if __name__ == "__main__":
     }
 
     # Save embeddings
-    embedding_file = f"qasper/test_paper_embeddings_{MODE}.json"
+    embedding_file = f"qasper/test_paper_embeddings_{RETRIEVER}_{MODE}.json"
     with open(embedding_file, "w", encoding="utf-8") as f:
         json.dump(paper_para_embeddings_list, f, indent=4)
 
