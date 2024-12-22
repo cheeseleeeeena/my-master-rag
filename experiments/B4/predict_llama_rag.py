@@ -27,7 +27,7 @@ os.environ["HF_HOME"] = "/workspace/P76125041/.cache/"
 
 RETRIEVER = "sbert"
 READER = "llama3"
-MODE = "notitle"
+MODE = "full"
 TOPK = 3
 
 retriever_map: Dict[str, str] = {
