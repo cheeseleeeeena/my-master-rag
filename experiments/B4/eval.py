@@ -9,6 +9,13 @@ import string
 import re
 import json
 from pathlib import Path
+from typing import List, Dict, Set, Union
+import numpy as np
+
+# RETRIEVER = "sbert"
+# READER = "unifiedlarge"
+# MODE = "notitle"
+# TOPK = 3
 
 
 def normalize_answer(s):
@@ -61,13 +68,22 @@ def paragraph_f1_score(prediction, ground_truth):
     f1 = (2 * precision * recall) / (precision + recall)
     return f1
 
+def paragraph_recall_score(prediction, ground_truth):
+    if not ground_truth and not prediction:
+        # The question is unanswerable and the prediction is empty.
+        return 1.0
+    num_same = len(set(ground_truth).intersection(set(prediction)))
+    if num_same == 0:
+        return 0.0
+    return num_same / len(ground_truth)
 
-def get_answers_and_evidence(data, text_evidence_only):
+def get_answers_and_evidence(data, text_evidence_only) -> Dict[str, List[Dict[str, Union[str, List[str]]]]]:
     answers_and_evidence = {}
     for paper_data in data.values():
         for qa_info in paper_data["qas"]:
             question_id = qa_info["question_id"]
-            references = []
+            references: List[Dict[str, Union[str, List[str]]]] = []
+            # process all answers from different annotators
             for annotation_info in qa_info["answers"]:
                 answer_info = annotation_info["answer"]
                 if answer_info["unanswerable"]:
@@ -103,13 +119,13 @@ def get_answers_and_evidence(data, text_evidence_only):
                         {"answer": answer, "evidence": evidence, "type": answer_type}
                     )
             answers_and_evidence[question_id] = references
-
     return answers_and_evidence
 
 
 def evaluate(gold, predicted):
     max_answer_f1s = []
     max_evidence_f1s = []
+    max_evidence_recalls = []
     max_answer_f1s_by_type = {
         "extractive": [],
         "abstractive": [],
@@ -142,6 +158,13 @@ def evaluate(gold, predicted):
             for reference in gold[question_id]
         ]
         max_evidence_f1s.append(max(evidence_f1s))
+        evidence_recalls = [
+            paragraph_recall_score(
+                predicted[question_id]["evidence"], reference["evidence"]
+            )
+            for reference in gold[question_id]
+        ]
+        max_evidence_recalls.append(max(evidence_recalls))
 
     mean = lambda x: sum(x) / len(x) if x else 0.0
     return {
@@ -150,19 +173,80 @@ def evaluate(gold, predicted):
             key: mean(value) for key, value in max_answer_f1s_by_type.items()
         },
         "Evidence F1": mean(max_evidence_f1s),
+        "Evidence Recall": mean(max_evidence_recalls),
         "Missing predictions": num_missing_predictions,
     }
+
+def get_sections(predicted_paras: List[str], paper: Dict[str, Dict], paper_id: str) -> List[str]:
+    all_paras: List[str] = [para_obj["text"] for para_obj in paper[paper_id].values()]
+    all_sections: List[str] = [para_obj["section_name"] for para_obj in paper[paper_id].values()]
+    predicted_sections: Set[str] = set()
+    for predicted_para in predicted_paras:
+        if predicted_para in all_paras:
+            predicted_sections.add(all_sections[all_paras.index(predicted_para)])
+    return list(predicted_sections)
+
+def record_errors(gold, predicted) -> Dict[str, Dict[str, str]]:
+    paper_file: Path = Path("qasper/test_papers.json")
+    questions_file: Path = Path("qasper/test_questions.json")
+
+    # get all paper contents from test set
+    with open(paper_file, "r") as file:
+        test_papers: Dict[str, Dict] = json.load(file)
+        
+    # get all questions from test set
+    with open(questions_file, "r") as file:
+        test_questions: Dict[str, Dict] = json.load(file)
+    
+    bad_evidences = []
+    for question_id, gold_references in gold.items():
+        paper_id: str = test_questions[question_id]["from_paper"]
+        predicted_paras: List[str] = predicted[question_id]["evidence"]
+        
+        evidence_recalls = [
+            paragraph_recall_score(
+                predicted_paras, reference["evidence"]
+            )
+            for reference in gold_references
+        ]
+        max_recall: float = max(evidence_recalls)
+        # inspect only the reference answer where the model performs best
+        best_ref_paras: List[str] = gold_references[np.argmax(evidence_recalls)]["evidence"]
+        
+        if max_recall < 0.5:
+            predicted_sections: List[str] = get_sections(predicted_paras, test_papers, paper_id)
+            gold_sections: List[str] = get_sections(best_ref_paras, test_papers, paper_id)
+            bad_evidences.append( {
+                "qid": question_id,
+                "question": test_questions[question_id]["question"],
+                "from_paper": paper_id,
+                "gold": best_ref_paras,
+                "gold_section": gold_sections,
+                "predicted": predicted_paras,
+                "predicted_section": predicted_sections
+            })
+    return bad_evidences
+                
+
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    # parser.add_argument(
+    #     "--predictions",
+    #     type=str,
+    #     required=True,
+    #     help="""JSON lines file with each line in format:
+    #             {'question_id': str, 'predicted_answer': str, 'predicted_evidence': List[str]}""",
+    # )
+    
     parser.add_argument(
-        "--predictions",
+        "--settings",
         type=str,
         required=True,
-        help="""JSON lines file with each line in format:
-                {'question_id': str, 'predicted_answer': str, 'predicted_evidence': List[str]}""",
+        help="""retriever-reader-mode-topk""",
     )
+    
     parser.add_argument(
         "--gold",
         type=str,
@@ -174,13 +258,27 @@ if __name__ == "__main__":
         action="store_true",
         help="If set, the evaluator will ignore evidence in figures and tables while reporting evidence f1",
     )
+    
+    parser.add_argument(
+        "--rag",
+        action="store_true",
+        help="If set, the evaluator will record cases with low recall score.",
+    )
+    
     args = parser.parse_args()
     gold_data = json.load(open(args.gold))
     gold_answers_and_evidence = get_answers_and_evidence(
         gold_data, args.text_evidence_only
     )
+    
+    # prepare results dir
+    # experiment_settings: str = f"{args.retriever}-{args.reader}-{args.mode}-top{args.topk}"
+    results_dir: Path = Path(f"results/{args.settings}")
+    results_dir.mkdir(parents=True, exist_ok=True)
+    
     predicted_answers_and_evidence = {}
-    for line in open(args.predictions):
+    prediction_file: Path = results_dir / "test_predictions.jsonl"
+    for line in open(prediction_file):
         prediction_data = json.loads(line)
         predicted_answers_and_evidence[prediction_data["question_id"]] = {
             "answer": prediction_data["predicted_answer"],
@@ -190,10 +288,16 @@ if __name__ == "__main__":
         gold_answers_and_evidence, predicted_answers_and_evidence
     )
 
-    setting_name: str = "full_titles"
-    results_dir: Path = Path(f"results/{setting_name}")
-    results_dir.mkdir(parents=True, exist_ok=True)
-    result_file: Path = results_dir / f"{setting_name}.json"
-
+    result_file: Path = results_dir / f"{args.settings}.json"
     with open(result_file, "w+", encoding="utf-8") as f:
         f.write(json.dumps(evaluation_output, indent=2, ensure_ascii=False))
+    
+    if args.rag:
+        all_errors: List[Dict] = record_errors(gold_answers_and_evidence, predicted_answers_and_evidence)
+        print(f"Total low recall cases: {len(all_errors)}")
+        # save to JSONLINES
+        error_file = results_dir / "low_recall_cases.jsonl"
+        with open(error_file, "w+", encoding="utf-8") as f:
+            for error in all_errors:
+                f.write(json.dumps(error, ensure_ascii=False))
+                f.write("\n")
