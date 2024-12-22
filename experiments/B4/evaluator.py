@@ -12,12 +12,6 @@ from pathlib import Path
 from typing import List, Dict, Set, Union
 import numpy as np
 
-# RETRIEVER = "sbert"
-# READER = "unifiedlarge"
-# MODE = "notitle"
-# TOPK = 3
-
-
 def normalize_answer(s):
     """
     Taken from the official evaluation script for v1.1 of the SQuAD dataset.

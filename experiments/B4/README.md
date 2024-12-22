@@ -3,7 +3,7 @@
 - 理解如何使用 LED-base (input & output format?) 
 - 理解如何用 fine-tuned baseline LED (input & output format?) 
 - complete reader module, which outputs answer as string, and save it in to `test_predictions.jsonl`
-- try running `eval.py`, define where to store results
+- try running `evaluator.py`, define where to store results
 - implement different experimental settings
 
 ## Prepare DB

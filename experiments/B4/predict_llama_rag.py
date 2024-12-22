@@ -1,5 +1,10 @@
 # (vllm) llama3-8b
+    # sbert-full
     # format error 71
+    # process time: 2min
+
+    # sbert-notitle
+    # format error 77
     # process time: 2min
 
 
@@ -22,7 +27,7 @@ os.environ["HF_HOME"] = "/workspace/P76125041/.cache/"
 
 RETRIEVER = "sbert"
 READER = "llama3"
-MODE = "full"
+MODE = "notitle"
 TOPK = 3
 
 retriever_map: Dict[str, str] = {

@@ -16,7 +16,7 @@ from vllm import LLM, SamplingParams
 import os
 
 import utils
-import eval
+import evaluator
 
 os.environ["HF_HOME"] = "/workspace/P76125041/.cache/"
 # os.environ["CUDA_VISIBLE_DEVICES"] = "1"4
@@ -95,7 +95,7 @@ if __name__ == "__main__":
         paper_id = question_data["from_paper"]
         
         gold_data = json.load(open("qasper/test_gold.json"))
-        gold_answers_and_evidence: Dict[str, List[Dict[str, Union[str, List[str]]]]] = eval.get_answers_and_evidence(gold_data, True)
+        gold_answers_and_evidence: Dict[str, List[Dict[str, Union[str, List[str]]]]] = evaluator.get_answers_and_evidence(gold_data, True)
         
         # pick the FIRST reference answer as gold evidence (act as topk_paras)
         topk_paras: List[str] = gold_answers_and_evidence[question_id][0]["evidence"]
