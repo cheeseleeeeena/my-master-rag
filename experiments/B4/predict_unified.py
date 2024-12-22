@@ -74,28 +74,6 @@ def format_paragraphs(raw_paras: List[dict], mode: str) -> List[str]:
 
 if __name__ == "__main__":
     
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument(
-    #     "--retriever",
-    #     type=str,
-    #     required=True,
-    #     help="""JSON lines file with each line in format:
-    #             {'question_id': str, 'predicted_answer': str, 'predicted_evidence': List[str]}""",
-    # )
-    # parser.add_argument(
-    #     "--gold",
-    #     type=str,
-    #     required=True,
-    #     help="Test or dev set from the released dataset",
-    # )
-    # parser.add_argument(
-    #     "--text_evidence_only",
-    #     action="store_true",
-    #     help="If set, the evaluator will ignore evidence in figures and tables while reporting evidence f1",
-    # )
-    
-    # args = parser.parse_args()
-    
     start_time = time.time()
 
     # load JSON files as dict : paper contents, paper embeddings, questions
@@ -122,19 +100,9 @@ if __name__ == "__main__":
     ### UNIFIEDQA
     qa_model = UnifiedQAModel(reader_map.get(READER))
     
-    all_predictions: List[Dict] = []
-    
-    # prepare paragraph embeddings for each paper [approx time: 5min]
-    # all_paper_ids: List[str] = [q["from_paper"] for q in test_questions.values()]
-    # paper_para_embeddings: Dict[str, List[List[float]]] = {}
-    # for paper_id in all_paper_ids:
-    #     paragraphs: List[str] = format_paragraphs(test_papers[paper_id].values(), MODE)
-    #     para_embeddings: List[List[float]] = embedding_model.encode(paragraphs)
-    #     paper_para_embeddings[paper_id] = para_embeddings
     
     # prepare question embeddings
     all_questions: List[str] = [q["question"] for q in test_questions.values()]
-    
     ### stella
     if RETRIEVER == "stella":
         question_embeddings = embedding_model.encode(all_questions, prompt_name=query_prompt_name)
@@ -142,7 +110,10 @@ if __name__ == "__main__":
     else:
         question_embeddings = embedding_model.encode(all_questions)
     assert len(question_embeddings)==len(all_questions), "something wrong in question embeddings..."
-        
+    
+    # prepare output data
+    all_predictions: List[Dict] = []
+    
     # answer questions    
     for idx, (question_id, question_data) in enumerate(test_questions.items()):
         predictions: Dict[str, Union[str, List[str]]] = {}
@@ -159,13 +130,10 @@ if __name__ == "__main__":
         q_embedding: List[float] = question_embeddings[idx]
         p_embedding: List[List[float]] = paper_para_embeddings[paper_id]
         
-        
+        # compute similarity
         ### stella
         if RETRIEVER == "stella":
             scores: List[float] = embedding_model.similarity(q_embedding, p_embedding)[0]
-            # assert len(scores)==len(raw_paras), "raw paragraphs & paragraph embeddings mismatched!!!"
-            # para_score_pairs: List[Tuple[int, str, float]] = list(zip(paragraphs, similarities[0].tolist()))
-        
         ### sbert
         else:
             scores: List[float] = util.dot_score(q_embedding, p_embedding)[0].cpu().tolist()
