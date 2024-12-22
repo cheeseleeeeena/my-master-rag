@@ -88,7 +88,7 @@ if __name__ == "__main__":
     }
 
     # Save embeddings
-    embedding_file = f"qasper/test_paper_embeddings_{RETRIEVER}_{MODE}.json"
+    embedding_file = f"qasper/test_embeddings_{RETRIEVER}_{MODE}.json"
     with open(embedding_file, "w", encoding="utf-8") as f:
         json.dump(paper_para_embeddings_list, f, indent=4)
 
