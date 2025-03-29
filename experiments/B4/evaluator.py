@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import List, Dict, Set, Union
 import numpy as np
 
+
 def normalize_answer(s):
     """
     Taken from the official evaluation script for v1.1 of the SQuAD dataset.
@@ -62,6 +63,7 @@ def paragraph_f1_score(prediction, ground_truth):
     f1 = (2 * precision * recall) / (precision + recall)
     return f1
 
+
 def paragraph_recall_score(prediction, ground_truth):
     if not ground_truth and not prediction:
         # The question is unanswerable and the prediction is empty.
@@ -71,7 +73,10 @@ def paragraph_recall_score(prediction, ground_truth):
         return 0.0
     return num_same / len(ground_truth)
 
-def get_answers_and_evidence(data, text_evidence_only) -> Dict[str, List[Dict[str, Union[str, List[str]]]]]:
+
+def get_answers_and_evidence(
+    data, text_evidence_only
+) -> Dict[str, List[Dict[str, Union[str, List[str]]]]]:
     answers_and_evidence = {}
     for paper_data in data.values():
         for qa_info in paper_data["qas"]:
@@ -171,14 +176,56 @@ def evaluate(gold, predicted):
         "Missing predictions": num_missing_predictions,
     }
 
-def get_sections(predicted_paras: List[str], paper: Dict[str, Dict], paper_id: str) -> List[str]:
+
+def old_get_sections(
+    predicted_paras: List[str], paper: Dict[str, Dict], paper_id: str
+) -> List[str]:
     all_paras: List[str] = [para_obj["text"] for para_obj in paper[paper_id].values()]
-    all_sections: List[str] = [para_obj["section_name"] for para_obj in paper[paper_id].values()]
+    all_sections: List[str] = [
+        para_obj["section_name"] for para_obj in paper[paper_id].values()
+    ]
     predicted_sections: Set[str] = set()
     for predicted_para in predicted_paras:
         if predicted_para in all_paras:
             predicted_sections.add(all_sections[all_paras.index(predicted_para)])
     return list(predicted_sections)
+
+
+def get_sections(
+    predicted_paras: List[str], paper: Dict[str, Dict], paper_id: str
+) -> List[str]:
+    """
+    Identify the originating section for each paragraph in predicted_paras.
+    The output list maintains the same length as predicted_paras, including duplicates.
+
+    Args:
+        predicted_paras: List of predicted paragraphs to locate in the paper.
+        paper: Dictionary with structure {paper_id: {'section_name': [str], 'text': [[str]]}}.
+        paper_id: The ID of the paper to search within.
+
+    Returns:
+        List of section names corresponding to each predicted paragraph.
+    """
+    # Extract section names and text from the paper
+    paper_data = paper[paper_id]
+    section_names = paper_data["section_name"]  # List of section names
+    section_texts = paper_data["text"]  # List of lists of paragraphs
+
+    # Create a mapping of paragraphs to section names for O(1) lookups
+    para_to_section: Dict[str, str] = {}
+    for section_name, paragraphs in zip(section_names, section_texts):
+        for para in paragraphs:
+            # Map each paragraph to its section (last occurrence if duplicated in paper)
+            para_to_section[para] = section_name
+
+    # Find sections for predicted paragraphs, preserving order and length
+    predicted_sections: List[str] = []
+    for predicted_para in predicted_paras:
+        # Append the section if found, otherwise append None (or an empty string, depending on preference)
+        predicted_sections.append(para_to_section.get(predicted_para, None))
+
+    return predicted_sections
+
 
 def record_errors(gold, predicted) -> Dict[str, Dict[str, str]]:
     paper_file: Path = Path("qasper/test_papers.json")
@@ -187,41 +234,45 @@ def record_errors(gold, predicted) -> Dict[str, Dict[str, str]]:
     # get all paper contents from test set
     with open(paper_file, "r") as file:
         test_papers: Dict[str, Dict] = json.load(file)
-        
+
     # get all questions from test set
     with open(questions_file, "r") as file:
         test_questions: Dict[str, Dict] = json.load(file)
-    
+
     bad_evidences = []
     for question_id, gold_references in gold.items():
         paper_id: str = test_questions[question_id]["from_paper"]
         predicted_paras: List[str] = predicted[question_id]["evidence"]
-        
+
         evidence_recalls = [
-            paragraph_recall_score(
-                predicted_paras, reference["evidence"]
-            )
+            paragraph_recall_score(predicted_paras, reference["evidence"])
             for reference in gold_references
         ]
         max_recall: float = max(evidence_recalls)
         # inspect only the reference answer where the model performs best
-        best_ref_paras: List[str] = gold_references[np.argmax(evidence_recalls)]["evidence"]
-        
-        if max_recall < 0.5:
-            predicted_sections: List[str] = get_sections(predicted_paras, test_papers, paper_id)
-            gold_sections: List[str] = get_sections(best_ref_paras, test_papers, paper_id)
-            bad_evidences.append( {
-                "qid": question_id,
-                "question": test_questions[question_id]["question"],
-                "from_paper": paper_id,
-                "gold": best_ref_paras,
-                "gold_section": gold_sections,
-                "predicted": predicted_paras,
-                "predicted_section": predicted_sections
-            })
-    return bad_evidences
-                
+        best_ref_paras: List[str] = gold_references[np.argmax(evidence_recalls)][
+            "evidence"
+        ]
 
+        if max_recall < 0.5:
+            predicted_sections: List[str] = get_sections(
+                predicted_paras, test_papers, paper_id
+            )
+            gold_sections: List[str] = get_sections(
+                best_ref_paras, test_papers, paper_id
+            )
+            bad_evidences.append(
+                {
+                    "qid": question_id,
+                    "question": test_questions[question_id]["question"],
+                    "from_paper": paper_id,
+                    "gold": best_ref_paras,
+                    "gold_section": gold_sections,
+                    "predicted": predicted_paras,
+                    "predicted_section": predicted_sections,
+                }
+            )
+    return bad_evidences
 
 
 if __name__ == "__main__":
@@ -233,14 +284,14 @@ if __name__ == "__main__":
     #     help="""JSON lines file with each line in format:
     #             {'question_id': str, 'predicted_answer': str, 'predicted_evidence': List[str]}""",
     # )
-    
+
     parser.add_argument(
         "--settings",
         type=str,
         required=True,
         help="""retriever-reader-mode-topk""",
     )
-    
+
     parser.add_argument(
         "--gold",
         type=str,
@@ -252,24 +303,24 @@ if __name__ == "__main__":
         action="store_true",
         help="If set, the evaluator will ignore evidence in figures and tables while reporting evidence f1",
     )
-    
+
     parser.add_argument(
         "--rag",
         action="store_true",
         help="If set, the evaluator will record cases with low recall score.",
     )
-    
+
     args = parser.parse_args()
     gold_data = json.load(open(args.gold))
     gold_answers_and_evidence = get_answers_and_evidence(
         gold_data, args.text_evidence_only
     )
-    
+
     # prepare results dir
     # experiment_settings: str = f"{args.retriever}-{args.reader}-{args.mode}-top{args.topk}"
     results_dir: Path = Path(f"results/{args.settings}")
     results_dir.mkdir(parents=True, exist_ok=True)
-    
+
     predicted_answers_and_evidence = {}
     prediction_file: Path = results_dir / "test_predictions.jsonl"
     for line in open(prediction_file):
@@ -285,9 +336,11 @@ if __name__ == "__main__":
     result_file: Path = results_dir / f"{args.settings}.json"
     with open(result_file, "w+", encoding="utf-8") as f:
         f.write(json.dumps(evaluation_output, indent=2, ensure_ascii=False))
-    
+
     if args.rag:
-        all_errors: List[Dict] = record_errors(gold_answers_and_evidence, predicted_answers_and_evidence)
+        all_errors: List[Dict] = record_errors(
+            gold_answers_and_evidence, predicted_answers_and_evidence
+        )
         print(f"Total low recall cases: {len(all_errors)}")
         # save to JSONLINES
         error_file = results_dir / "low_recall_cases.jsonl"

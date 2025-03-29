@@ -1,12 +1,12 @@
 # if the question requires multisection evidences, give gold evidences instead.
 # (vllm) llama3-8b
-    # sbert-full
-    # format error 62
-    # process time: 2min
+# sbert-full
+# format error 62
+# process time: 2min
 
-    # sbert-notitle
-    # format error 67
-    # process time: 2min
+# sbert-notitle
+# format error 67
+# process time: 2min
 
 
 from datasets import load_dataset
@@ -27,14 +27,22 @@ import evaluator
 os.environ["HF_HOME"] = "/workspace/P76125041/.cache/"
 # os.environ["CUDA_VISIBLE_DEVICES"] = "1"4
 
-RETRIEVER = "sbert"
+qid_to_idx = {
+    "e42916924b69cab1df25d3b4e6072feaa0ba8084": 0,
+    "f64449a21c452bc5395a0f0a49fb49825e6385f4": 0,
+    "bc8526d4805e2554adb2e9c01736d3f3a3b19895": 0,
+    "67cb001f8ca122ea859724804b41529fea5faeef": 0,
+    "516b691ef192f136bb037c12c3c9365ef5a6604c": 0,
+}
+
+RETRIEVER = "gold"
 READER = "llama3"
-MODE = "notitle"
+MODE = "not"
 TOPK = 3
 
 retriever_map: Dict[str, str] = {
     "sbert": "sentence-transformers/multi-qa-mpnet-base-cos-v1",
-    "stella": "dunzhang/stella_en_400M_v5"
+    "stella": "dunzhang/stella_en_400M_v5",
 }
 
 reader_map: Dict[str, str] = {
@@ -43,21 +51,29 @@ reader_map: Dict[str, str] = {
 
 
 if __name__ == "__main__":
-    
+
     raw_test = load_dataset(
         "allenai/qasper",
         split="test",
         cache_dir="/workspace/P76125041/.cache/huggingface/",
     )
-    
+
     # load JSON files as dict : paper contents, paper embeddings, questions
-    test_questions: Dict[str, Dict] = utils.load_json(Path("qasper/test_questions.json"))
+    test_questions: Dict[str, Dict] = utils.load_json(
+        Path("qasper/test_questions.json")
+    )
     test_papers: Dict[str, Dict] = utils.load_json(Path("qasper/test_papers.json"))
-    test_paper_titles: Dict[str, str] = {paper["id"]: paper["title"] for paper in raw_test}
-    paper_para_embeddings: Dict[str, List[List[float]]] = utils.load_json(Path(f"qasper/embeddings/test_embeddings_{RETRIEVER}_{MODE}.json"))
-    error_cases: Dict[str, Dict[str, Dict]] = utils.load_json(Path(f"demo/multisection_error_cases.json"))
+    test_paper_titles: Dict[str, str] = {
+        paper["id"]: paper["title"] for paper in raw_test
+    }
+    paper_para_embeddings: Dict[str, List[List[float]]] = utils.load_json(
+        Path(f"qasper/embeddings/test_embeddings_{RETRIEVER}_{MODE}.json")
+    )
+    error_cases: Dict[str, Dict[str, Dict]] = utils.load_json(
+        Path(f"demo/multisection_error_cases.json")
+    )
     multisection_error_questions: List[str] = list(error_cases[MODE].keys())
-    
+
     # initialize retriever
     ### Stella
     if RETRIEVER == "stella":
@@ -66,11 +82,13 @@ if __name__ == "__main__":
             retriever_map.get(RETRIEVER),
             device="cuda:0",
             cache_folder="/workspace/P76125041/.cache/",
-            trust_remote_code=True
+            trust_remote_code=True,
         ).cuda(0)
     ### SBERT
     else:
-        embedding_model = SentenceTransformer(retriever_map.get(RETRIEVER), cache_folder="/workspace/P76125041/.cache/")
+        embedding_model = SentenceTransformer(
+            retriever_map.get(RETRIEVER), cache_folder="/workspace/P76125041/.cache/"
+        )
 
     # initialize LLM reader
     tokenizer = AutoTokenizer.from_pretrained(
@@ -82,58 +100,74 @@ if __name__ == "__main__":
         download_dir="/workspace/P76125041/models",
     )
     sampling_params = SamplingParams(max_tokens=500)
-    
+
     # prepare question embeddings
     all_questions: List[str] = [q["question"] for q in test_questions.values()]
     ### stella
     if RETRIEVER == "stella":
-        question_embeddings = embedding_model.encode(all_questions, prompt_name=query_prompt_name)
+        question_embeddings = embedding_model.encode(
+            all_questions, prompt_name=query_prompt_name
+        )
     ### sbert
     else:
         question_embeddings = embedding_model.encode(all_questions)
-    assert len(question_embeddings)==len(all_questions), "something wrong in question embeddings..."
-    
-    
+    assert len(question_embeddings) == len(
+        all_questions
+    ), "something wrong in question embeddings..."
+
     # ===========================================  RETRIEVER =============================================
-    
+
     # prepare topk_paras (for generating prompts LLM batch inference)
     all_topk_paras: Dict[str, List[str]] = {}
     for idx, (question_id, question_data) in enumerate(test_questions.items()):
-        current_question: str = question_data['question']
+        current_question: str = question_data["question"]
         print(f"Processing `{current_question}`...")
-        
+
         paper_id = question_data["from_paper"]
         if question_id in multisection_error_questions:
             gold_data = json.load(open("qasper/test_gold.json"))
-            gold_answers_and_evidence: Dict[str, List[Dict[str, Union[str, List[str]]]]] = evaluator.get_answers_and_evidence(gold_data, True)
+            gold_answers_and_evidence: Dict[
+                str, List[Dict[str, Union[str, List[str]]]]
+            ] = evaluator.get_answers_and_evidence(gold_data, True)
             # pick the FIRST reference answer as gold evidence (act as topk_paras)
-            topk_paras: List[str] = gold_answers_and_evidence[question_id][0]["evidence"]
-        
+            topk_paras: List[str] = gold_answers_and_evidence[question_id][0][
+                "evidence"
+            ]
+
         else:
             # get original paragraphs
-            raw_paras: List[str] = [para["text"] for para in test_papers[paper_id].values()]
-            
+            raw_paras: List[str] = [
+                para["text"] for para in test_papers[paper_id].values()
+            ]
+
             # get embeddings
             q_embedding: List[float] = question_embeddings[idx]
             p_embedding: List[List[float]] = paper_para_embeddings[paper_id]
-            
+
             # compute similarity
             ### stella
             if RETRIEVER == "stella":
-                scores: List[float] = embedding_model.similarity(q_embedding, p_embedding)[0]
+                scores: List[float] = embedding_model.similarity(
+                    q_embedding, p_embedding
+                )[0]
             ### sbert
             else:
-                scores: List[float] = util.dot_score(q_embedding, p_embedding)[0].cpu().tolist()
-            assert len(scores)==len(raw_paras), "raw paragraphs & paragraph embeddings mismatched!!!"
+                scores: List[float] = (
+                    util.dot_score(q_embedding, p_embedding)[0].cpu().tolist()
+                )
+            assert len(scores) == len(
+                raw_paras
+            ), "raw paragraphs & paragraph embeddings mismatched!!!"
             para_score_pairs = list(zip(raw_paras, scores))
-            topk_para_score_pairs: List[Tuple[str, float]] = sorted(para_score_pairs, key=lambda x: x[1], reverse=True)[:TOPK]
-                # for para, score in topk_para_score_pairs:
-                #     print(f"sim score: {score:.3f}")
-                #     print(para)
-                #     print("=" * 100)
+            topk_para_score_pairs: List[Tuple[str, float]] = sorted(
+                para_score_pairs, key=lambda x: x[1], reverse=True
+            )[:TOPK]
+            # for para, score in topk_para_score_pairs:
+            #     print(f"sim score: {score:.3f}")
+            #     print(para)
+            #     print("=" * 100)
             topk_paras: List[str] = [para for para, _ in topk_para_score_pairs]
         all_topk_paras[question_id] = topk_paras
-
 
     # format prompts for llama batch inference
     question_prompts: List[str] = []
@@ -181,7 +215,7 @@ if __name__ == "__main__":
 
     # record error count where llm did not follow output format
     error_count: int = 0
-    
+
     # process answers question by question
     question_ids: List[str] = list(test_questions.keys())
     all_predictions: List[Dict[str, Union[str, List[str]]]] = []
@@ -208,7 +242,7 @@ if __name__ == "__main__":
         all_predictions.append(prediction)
 
     print(f"total format error count: {error_count}")
-    
+
     # save predictions as JSONL file
     results_dir: Path = Path(f"results/{RETRIEVER}-{READER}-{MODE}-top{TOPK}-fixed")
     results_dir.mkdir(parents=True, exist_ok=True)
