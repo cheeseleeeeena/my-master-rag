@@ -1,0 +1,12 @@
+{
+  "Answer F1": 0.3747501175029125,
+  "Answer F1 by type": {
+    "extractive": 0.4006196796683217,
+    "abstractive": 0.17960073000723006,
+    "boolean": 0.7733333333333333,
+    "none": 0.0
+  },
+  "Evidence F1": 0.3570238973064609,
+  "Evidence Recall": 0.5560903896543564,
+  "Missing predictions": 0
+}
