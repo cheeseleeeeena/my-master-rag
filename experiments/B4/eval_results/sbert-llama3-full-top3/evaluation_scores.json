@@ -6,9 +6,9 @@
     "boolean": 0.6268604151866085,
     "none": 0.2095604537416384
   },
-  "Evidence F1": 0.29274508565016005,
+  "Evidence F1": 0.297216550321487,
   "Evidence Precision": 0.23501033769813837,
-  "Evidence Recall": 0.48700024982171636,
+  "Evidence Recall": 0.5038884385913662,
   "Missing predictions": 0,
   "Max Score Details": {
     "397a1e851aab41c455c2b284f5e4947500d797f0": {
@@ -350,9 +350,9 @@
     "6c50871294562e4886ede804574e6acfa8d1a5f9": {
       "answer_f1": 0.36363636363636365,
       "answer_index": 1,
-      "evidence_f1": 0.6666666666666666,
+      "evidence_f1": 0.8,
       "evidence_precision": 0.6666666666666666,
-      "evidence_recall": 0.6666666666666666,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "0ac6fbd81e2dd95b800283dc7e59ce969d45fc02": {
@@ -462,9 +462,9 @@
     "935873b97872820b7b6100d6a785fba286b94900": {
       "answer_f1": 0.3278688524590164,
       "answer_index": 1,
-      "evidence_f1": 0.6666666666666666,
+      "evidence_f1": 0.8,
       "evidence_precision": 0.6666666666666666,
-      "evidence_recall": 0.6666666666666666,
+      "evidence_recall": 1.0,
       "evidence_index": 1
     },
     "f2bcfdbebb418e7da165c19b8c7167719432ee48": {
@@ -713,7 +713,7 @@
       "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
       "evidence_recall": 1.0,
-      "evidence_index": 2
+      "evidence_index": 1
     },
     "a71fb012631e6a8854d5945b6d0ab2ab8e7b7ee6": {
       "answer_f1": 0.5454545454545454,
@@ -1014,9 +1014,9 @@
     "afeceee343360d3fe715f405dac7760d9a6754a7": {
       "answer_f1": 0.16901408450704228,
       "answer_index": 2,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "cc3dd701f3a674618de95a4196e9c7f4c8fbf1e5": {
@@ -1078,9 +1078,9 @@
     "47d54a6dd50cab8dab64bfa1f9a1947a8190080c": {
       "answer_f1": 0.08333333333333333,
       "answer_index": 0,
-      "evidence_f1": 0.5714285714285715,
+      "evidence_f1": 0.6666666666666666,
       "evidence_precision": 0.6666666666666666,
-      "evidence_recall": 0.5,
+      "evidence_recall": 0.6666666666666666,
       "evidence_index": 1
     },
     "67cb001f8ca122ea859724804b41529fea5faeef": {
@@ -1310,9 +1310,9 @@
     "0d42bd759c84cbf3a293ab58283a3d0d5e27d290": {
       "answer_f1": 1.0,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 2
     },
     "9f1e60ee86a5c46abe75b67ef369bf92a5090568": {
@@ -1326,9 +1326,9 @@
     "4dc4180127761e987c1043d5f8b94512bbe74d4f": {
       "answer_f1": 0.05128205128205128,
       "answer_index": 0,
-      "evidence_f1": 0.3333333333333333,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.3333333333333333,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "420862798054f736128a6f0c4393c7f9cc648b40": {
@@ -1358,9 +1358,9 @@
     "875fbf4e5f93c3da63e28a233ce1d8405c7dfe63": {
       "answer_f1": 0.125,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "56b66d19dbc5e605788166e168f36d25f5beb774": {
@@ -1694,9 +1694,9 @@
     "e2c8d7f3ef5913582503e50244ca7158d0a62c42": {
       "answer_f1": 1.0,
       "answer_index": 2,
-      "evidence_f1": 0.28571428571428575,
+      "evidence_f1": 0.4,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.25,
+      "evidence_recall": 0.5,
       "evidence_index": 1
     },
     "654fe0109502f2ed2dc8dad359dbbce4393e03dc": {
@@ -2102,9 +2102,9 @@
     "96356c1affc56178b3099ce4b4aece995032e0ff": {
       "answer_f1": 0.1904761904761905,
       "answer_index": 2,
-      "evidence_f1": 0.6666666666666666,
+      "evidence_f1": 0.8,
       "evidence_precision": 0.6666666666666666,
-      "evidence_recall": 0.6666666666666666,
+      "evidence_recall": 1.0,
       "evidence_index": 2
     },
     "92fc94a4999d1b25a0593904025eb7b8953bb28b": {
@@ -2326,9 +2326,9 @@
     "256dfa501a71d7784520a527f43aec0549b1afea": {
       "answer_f1": 0.5714285714285715,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "f85520bbc594918968d7d9f33d11639055458344": {
@@ -2425,7 +2425,7 @@
       "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
       "evidence_recall": 1.0,
-      "evidence_index": 1
+      "evidence_index": 0
     },
     "2803709fba74e6098aae145abcbf0e9a3f4c35e5": {
       "answer_f1": 0.09523809523809525,
@@ -2505,7 +2505,7 @@
       "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
       "evidence_recall": 1.0,
-      "evidence_index": 1
+      "evidence_index": 0
     },
     "3cfe464052f0a248b6e22c9351279403dfe34f3c": {
       "answer_f1": 0.4545454545454545,
@@ -2550,9 +2550,9 @@
     "1c0a575e289eb486d3e6375d6f783cc2bf18adf9": {
       "answer_f1": 0.06666666666666667,
       "answer_index": 1,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "4efe0d62bba618803ec12b63f32debb8b757dd68": {
@@ -2710,9 +2710,9 @@
     "8ea4a75dacf6a39f9d385ba14b3dce715a47d689": {
       "answer_f1": 0.27272727272727276,
       "answer_index": 1,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "1e11e74481ead4b7635922bbe0de041dc2dde28d": {
@@ -2726,9 +2726,9 @@
     "597d3fc9b8c0c036f58cea5b757d0109d5211b2f": {
       "answer_f1": 0.28125,
       "answer_index": 0,
-      "evidence_f1": 0.6666666666666666,
+      "evidence_f1": 0.8,
       "evidence_precision": 0.6666666666666666,
-      "evidence_recall": 0.6666666666666666,
+      "evidence_recall": 1.0,
       "evidence_index": 2
     },
     "f0404673085517eea708c5e91f32fb0f7728fa08": {
@@ -2798,9 +2798,9 @@
     "5206b6f40a91fc16179829041c1139a6c6d91ce7": {
       "answer_f1": 0.7000000000000001,
       "answer_index": 1,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 1
     },
     "48ff9645a506aa2c17810d2654d1f0f0d9e609ee": {
@@ -2918,9 +2918,9 @@
     "1ef6471cc3e1eb10d2e92656c77020ca1612f08e": {
       "answer_f1": 0.14035087719298245,
       "answer_index": 2,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "d976c22e9d068e4e31fb46e929023459f8290a63": {
@@ -3110,9 +3110,9 @@
     "d2451d32c5a11a0eb8356a5e9d94a9231b59f198": {
       "answer_f1": 1.0,
       "answer_index": 1,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "90dde59e1857a0d2b1ee4615ab017fee0741f29f": {
@@ -3145,7 +3145,7 @@
       "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
       "evidence_recall": 1.0,
-      "evidence_index": 2
+      "evidence_index": 1
     },
     "a17fc7b96753f85aee1d2036e2627570f4b50c30": {
       "answer_f1": 0,
@@ -3318,9 +3318,9 @@
     "31cba86bc45970337ba035ecf36d8954a9a5206a": {
       "answer_f1": 0.05263157894736842,
       "answer_index": 1,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "3a25f82512d56d9e1ffba72f977f515ae3ba3cca": {
@@ -3694,9 +3694,9 @@
     "28e50459da60ceda49fe1578c12f3f805b288bd0": {
       "answer_f1": 0.3414634146341463,
       "answer_index": 2,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 1
     },
     "e1f61500eb733f2b95692b6a9a53f8aaa6f1e1f6": {
@@ -3982,9 +3982,9 @@
     "5f1ffaa738fedd5b6668ec8b58a027ddea6867ce": {
       "answer_f1": 0.09090909090909091,
       "answer_index": 2,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "8e26c471ca0ee1b9779da04c0b81918fd310d0f3": {
@@ -4134,9 +4134,9 @@
     "d5dcc89a08924bed9772bc431090cbb52fb7836f": {
       "answer_f1": 0.3333333333333333,
       "answer_index": 1,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "d418bf6595b1b51a114f28ac8a6909c278838aeb": {
@@ -4334,9 +4334,9 @@
     "eccbbe3684d0cf6b794cb4eef379bb1c8bcc33bf": {
       "answer_f1": 0.24242424242424243,
       "answer_index": 0,
-      "evidence_f1": 0.6666666666666666,
+      "evidence_f1": 0.8,
       "evidence_precision": 0.6666666666666666,
-      "evidence_recall": 0.6666666666666666,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "a3705b53c6710b41154c65327b7bbec175bdfae7": {
@@ -4385,7 +4385,7 @@
       "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
       "evidence_recall": 1.0,
-      "evidence_index": 1
+      "evidence_index": 0
     },
     "930733efb3b97e1634b4dcd77123d4d5731e8807": {
       "answer_f1": 0.14634146341463417,
@@ -4414,9 +4414,9 @@
     "9ea3669528c2b295f21770cb7f70d0c4b4389223": {
       "answer_f1": 0,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 1
     },
     "9863f5765ba70f7ff336a580346ef70205abbbd8": {
@@ -4518,10 +4518,10 @@
     "290ebf0d1c49b67a6d1858366be751d89086a78b": {
       "answer_f1": 0.3225806451612903,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
-      "evidence_index": 0
+      "evidence_recall": 1.0,
+      "evidence_index": 1
     },
     "806fefe0e331ddb3c17245d6a9fa7433798e367f": {
       "answer_f1": 0.21428571428571425,
@@ -4726,9 +4726,9 @@
     "e25b73f700e8c958b64951f14a71bc60d225125c": {
       "answer_f1": 0.23333333333333334,
       "answer_index": 1,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 1
     },
     "908ba58d26d15c14600623498d4e86c9b73b14b2": {
@@ -5262,9 +5262,9 @@
     "9a9774eacb8f75bcfa07a4e60ed5eb02646467e3": {
       "answer_f1": 0,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 1
     },
     "4ed58d828cd6bb9beca1471a9fa9f5e77488b1d1": {
@@ -5417,14 +5417,14 @@
       "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
       "evidence_recall": 1.0,
-      "evidence_index": 2
+      "evidence_index": 1
     },
     "363d0cb0cd5c9a0b0364d61d95f2eff7347d5a36": {
       "answer_f1": 0.06896551724137931,
       "answer_index": 1,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "cf0b7d8a2449d04078f69ec9717a547adfb67d17": {
@@ -5830,9 +5830,9 @@
     "2ba4477d597b1fd123d14be07a7780ccb5c4819b": {
       "answer_f1": 0.21739130434782608,
       "answer_index": 0,
-      "evidence_f1": 0.5714285714285715,
+      "evidence_f1": 0.6666666666666666,
       "evidence_precision": 0.6666666666666666,
-      "evidence_recall": 0.5,
+      "evidence_recall": 0.6666666666666666,
       "evidence_index": 1
     },
     "027814f3a879a6c7852e033f9d99519b8729e444": {
@@ -5942,9 +5942,9 @@
     "c4c06f36454fbfdc5d218fb84ce74eaf7f78fc98": {
       "answer_f1": 0.25,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "347dc2fd6427b39cf2358d43864750044437dff8": {
@@ -6198,9 +6198,9 @@
     "d7e43a3db8616a106304ac04ba729c1fee78761d": {
       "answer_f1": 0.03174603174603175,
       "answer_index": 1,
-      "evidence_f1": 0.28571428571428575,
+      "evidence_f1": 0.4,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.25,
+      "evidence_recall": 0.5,
       "evidence_index": 1
     },
     "0ba8f04c3fd64ee543b9b4c022310310bc5d3c23": {
@@ -6214,9 +6214,9 @@
     "b7d02f12baab5db46ea9403d8932e1cd1b022f79": {
       "answer_f1": 0,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "ff2b58c90784eda6dddd8a92028e6432442c1093": {
@@ -6398,9 +6398,9 @@
     "f3673f6375f065014e8e4bb8c7adf54c1c7d7862": {
       "answer_f1": 0.0625,
       "answer_index": 1,
-      "evidence_f1": 0.5714285714285715,
+      "evidence_f1": 0.8,
       "evidence_precision": 0.6666666666666666,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 1
     },
     "0bd3bea892c34a3820e98c4a42cdeda03753146b": {
@@ -6462,9 +6462,9 @@
     "4dadde7c61230553ef14065edd8c1c7e41b9c329": {
       "answer_f1": 0,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "014830892d93e3c01cb659ad31c90de4518d48f3": {
@@ -6638,9 +6638,9 @@
     "f8edc911f9e16559506f3f4a6bda74cde5301a9a": {
       "answer_f1": 0,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "8c288120139615532838f21094bba62a77f92617": {
@@ -6918,9 +6918,9 @@
     "3b8da74f5b359009d188cec02adfe4b9d46a768f": {
       "answer_f1": 0,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "6bce04570d4745dcfaca5cba64075242308b65cf": {
@@ -7134,9 +7134,9 @@
     "5e29f16d7302f24ab93b7707d115f4265a0d14b0": {
       "answer_f1": 0.24242424242424243,
       "answer_index": 1,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 1
     },
     "26844cec57df6ff0f02245ea862af316b89edffe": {
@@ -7630,9 +7630,9 @@
     "c635295c2b77aaab28faecca3b5767b0c4ab3728": {
       "answer_f1": 0.34782608695652173,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 1
     },
     "7f8fc3c7d59aba80a3e7c839db6892a1fc329210": {
@@ -7734,9 +7734,9 @@
     "82b93ecd2397e417e1e80f93b7cf49c7bd9aeec3": {
       "answer_f1": 0.10256410256410256,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "2973fe3f5b4bf70ada02ac4a9087dd156cc3016e": {
@@ -8014,9 +8014,9 @@
     "84327a0a9321bf266e22d155dfa94828784595ce": {
       "answer_f1": 0,
       "answer_index": 0,
-      "evidence_f1": 0.6666666666666666,
+      "evidence_f1": 0.8,
       "evidence_precision": 0.6666666666666666,
-      "evidence_recall": 0.6666666666666666,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "c2037887945abbdf959389dc839a86bc82594505": {
@@ -8606,9 +8606,9 @@
     "818c85ee26f10622c42ae7bcd0dfbdf84df3a5e0": {
       "answer_f1": 0.18867924528301885,
       "answer_index": 1,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 1
     },
     "37b0ee4a9d0df3ae3493e3b9114c3f385746da5c": {
@@ -8774,9 +8774,9 @@
     "5d5c25d68988fa5effe546507c66997785070573": {
       "answer_f1": 0,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "ca595151735444b5b30a003ee7f3a7eb36917208": {
@@ -8814,17 +8814,17 @@
     "184382af8f58031c6e357dbee32c90ec95288cb3": {
       "answer_f1": 0.2153846153846154,
       "answer_index": 0,
-      "evidence_f1": 0.28571428571428575,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.25,
+      "evidence_recall": 1.0,
       "evidence_index": 1
     },
     "97abc2e7b39869f660986b91fc68be4ba196805c": {
       "answer_f1": 0.13953488372093023,
       "answer_index": 2,
-      "evidence_f1": 0.28571428571428575,
+      "evidence_f1": 0.4,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.25,
+      "evidence_recall": 0.5,
       "evidence_index": 2
     },
     "9ec0527bda2c302f4e82949cc0ae7f7769b7bfb8": {
@@ -8838,9 +8838,9 @@
     "330fe3815f74037a9be93a4c16610c736a2a27b3": {
       "answer_f1": 0.30769230769230765,
       "answer_index": 1,
-      "evidence_f1": 0.3333333333333333,
+      "evidence_f1": 0.4,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.3333333333333333,
+      "evidence_recall": 0.5,
       "evidence_index": 1
     },
     "7546125f43eec5b09a3368c95019cb2bf1478255": {
@@ -8894,9 +8894,9 @@
     "1c3a20dceec2a86fb61e70fab97a9fb549b5c54c": {
       "answer_f1": 0.11627906976744184,
       "answer_index": 0,
-      "evidence_f1": 0.3333333333333333,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.3333333333333333,
+      "evidence_recall": 1.0,
       "evidence_index": 1
     },
     "9686f3ff011bc6e3913c329c6a5671932c27e63e": {
@@ -9246,9 +9246,9 @@
     "3d2b5359259cd3518f361d760bacc49d84c40d82": {
       "answer_f1": 0.0689655172413793,
       "answer_index": 1,
-      "evidence_f1": 0.6,
+      "evidence_f1": 0.7499999999999999,
       "evidence_precision": 1.0,
-      "evidence_recall": 0.42857142857142855,
+      "evidence_recall": 0.6,
       "evidence_index": 0
     },
     "26a321e242e58ea5f2ceaf37f26566dd0d0a0da1": {
@@ -9310,9 +9310,9 @@
     "6da1320fa25b2b6768358d3233a5ecf99cc73db5": {
       "answer_f1": 0.45454545454545453,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "351f7b254e80348221e0654478663a5e53d3fe65": {
@@ -9342,9 +9342,9 @@
     "31b9337fdfbbc33fc456552ad8c355d836d690ff": {
       "answer_f1": 0.21052631578947364,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "389ff1927ba9fc8bac50959fc09f30c2143cc14e": {
@@ -9425,7 +9425,7 @@
       "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
       "evidence_recall": 1.0,
-      "evidence_index": 1
+      "evidence_index": 0
     },
     "24897f57e3b0550be1212c0d9ebfcf83bad4164e": {
       "answer_f1": 0.0625,
@@ -9438,9 +9438,9 @@
     "d576af4321fe71ced9e521df1f3fe1eb90d2df2d": {
       "answer_f1": 0.30303030303030304,
       "answer_index": 0,
-      "evidence_f1": 0.6666666666666666,
+      "evidence_f1": 1.0,
       "evidence_precision": 1.0,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "fd651d19046966ca65d4bcf6f6ae9c66cdf13777": {
@@ -9462,9 +9462,9 @@
     "89fa14a04008c93907fa13375f9e70b655d96209": {
       "answer_f1": 0.15384615384615385,
       "answer_index": 1,
-      "evidence_f1": 0.6666666666666666,
+      "evidence_f1": 0.8,
       "evidence_precision": 0.6666666666666666,
-      "evidence_recall": 0.6666666666666666,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "ff36168caf48161db7039e3bd4732cef31d4de99": {
@@ -9614,9 +9614,9 @@
     "16b816925567deb734049416c149747118e13963": {
       "answer_f1": 0.11320754716981132,
       "answer_index": 1,
-      "evidence_f1": 0.3333333333333333,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.3333333333333333,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "9b536f4428206ef7afabc4ff0a2ebcbabd68b985": {
@@ -9830,9 +9830,9 @@
     "aaf2445e78348dba66d7208b7430d25364e11e46": {
       "answer_f1": 0.6428571428571429,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 0
     },
     "d98148f65d893101fa9e18aaf549058712485436": {
@@ -10094,9 +10094,9 @@
     "0c247a04f235a4375dd3b0fd0ce8d0ec72ef2256": {
       "answer_f1": 0,
       "answer_index": 0,
-      "evidence_f1": 0.5714285714285715,
+      "evidence_f1": 0.8,
       "evidence_precision": 0.6666666666666666,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 1
     },
     "66dfcdab1db6a8fcdf392157a478b4cca0d87961": {
@@ -10113,7 +10113,7 @@
       "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
       "evidence_recall": 1.0,
-      "evidence_index": 1
+      "evidence_index": 0
     },
     "6e80386b33fbfba8bc1ab811a597d844ae67c578": {
       "answer_f1": 0.27272727272727276,
@@ -11350,9 +11350,9 @@
     "c463136ba9a312a096034c872b5c74b9d58cef95": {
       "answer_f1": 0.24242424242424243,
       "answer_index": 1,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 1
     },
     "81e101b2c803257492d67a00e8a1d9a07cbab136": {
@@ -11606,9 +11606,9 @@
     "8641156c4d67e143ebbabbd79860349242a11451": {
       "answer_f1": 0,
       "answer_index": 0,
-      "evidence_f1": 0.4,
+      "evidence_f1": 0.5,
       "evidence_precision": 0.3333333333333333,
-      "evidence_recall": 0.5,
+      "evidence_recall": 1.0,
       "evidence_index": 1
     },
     "2a120f358f50c377b5b63fb32633223fa4ee2149": {
