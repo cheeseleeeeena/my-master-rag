@@ -15,14 +15,9 @@ import evaluator
 
 os.environ["HF_HOME"] = "/workspace/P76125041/.cache/"
 
-READER = "llama3"
 READER_MODEL = "meta-llama/Meta-Llama-3-8B-Instruct"
-HYPOTHESIS = "h1"
-
-
-# single fact
-# low ans-F1 due to noise from retrieved topk (recall=1, precision=1/3, where 1 is gold, 2 is probably noise)
-# total cases: 151
+settings = "sbert-llama3-full-top3"
+HYPOTHESIS = "h2"
 
 
 # Precomputed prompt template parts
@@ -51,7 +46,7 @@ if __name__ == "__main__":
 
     # read CSV file to get subset questions
     with open(
-        f"eval_results/llama3-{HYPOTHESIS}/{HYPOTHESIS}.csv",
+        f"eval_results/{settings}/{HYPOTHESIS}/{HYPOTHESIS}.csv",
         newline="",
         encoding="utf-8",
     ) as csvfile:

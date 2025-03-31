@@ -738,12 +738,15 @@ if __name__ == "__main__":
     for qid, ans_type, count in gold_paras_counts:
         if ans_type == "none":
             if count == 0:
+                # unanswerable questions and did not provide gold evidences
                 unanswerable_counts.append(qid)
             else:
+                # unanswerable questions with gold evidences
                 unanswerable_gold_paras_counts.append((qid, count))
         elif count == 0:
+            # exception: gold evidences not provided
             answerable_without_gold_paras.append(qid)
-
+        # multi-fact (unaligned)
         elif count > 1:
             if count > 3:
                 truncated_gold_paras_counts.append((qid, count))
@@ -777,78 +780,9 @@ if __name__ == "__main__":
     min_truncated_count: int = np.min([obj[1] for obj in truncated_gold_paras_counts])
     print(f"max truncated evidence count: {max_truncated_count}")
     print(f"min truncated evidence count: {min_truncated_count}")
-    # print(
-    #     f"avg of evidence count among multihop question: {np.average(multi_gold_paras_counts): .2f}"
-    # )
     print(
         f"median of evidence count among multihop question: {np.median(multi_gold_paras_counts)}"
     )
     print(
         f"mode of evidence count among multihop question: {stats.mode(multi_gold_paras_counts)}"
     )
-
-    # gather cases for multi-hop outliers
-    print("-----")
-    print("multi-hop outliers:")
-    print("-----")
-    multihop_outliers = []
-    multihop_outliers_unaligned = []
-    for entry in detailed_analysis:
-        paras_count = len(entry["full_gold_paras"])
-        if (
-            entry["gold_answer_type"] == "extractive"
-            and paras_count > 3
-            and paras_count < 10
-        ):
-            if entry["best_ev_idx"] == entry["best_ans_idx"]:
-                multihop_outliers.append(
-                    (entry["qid"], paras_count, entry["best_ans_idx"])
-                )
-            else:
-                multihop_outliers_unaligned.append(
-                    (
-                        entry["qid"],
-                        paras_count,
-                    )
-                )
-
-    if not multihop_outliers:
-        print("all extractive cases have no outlier!")
-    else:
-        print(f"total outlier: {len(multihop_outliers)}")
-        for qid, count, idx in multihop_outliers:
-            print(f"[{qid}] count={count}, chosen idx={idx}")
-            print("----")
-    print(f"total unaligned multihop outliers: {len(multihop_outliers_unaligned)}")
-
-    # gather cases for extractive type
-    # print("-----")
-    # print("extractive stats:\n")
-    # print("-----")
-    # extractive_cases: Dict = {}
-    # extractive_cases["unannotated"] = []
-    # for entry in detailed_analysis:
-    #     if entry["gold_answer_type"] == "extractive" and len(entry["gold_paras"]) == 0:
-    #         if entry["best_ev_idx"] == entry["best_ans_idx"]:
-    #             extractive_cases["unannotated"].append(
-    #                 {
-    #                     "qid": entry["qid"],
-    #                     "best_ans": entry["best_ev_idx"],
-    #                 }
-    #             )
-    #         else:
-    #             extractive_cases["unannotated"].append(
-    #                 {
-    #                     "qid": entry["qid"],
-    #                     "best_ans": (entry["best_ev_idx"], entry["best_ans_idx"]),
-    #                 }
-    #             )
-    # if not extractive_cases["unannotated"]:
-    #     print("all extractive cases have proper annotator answer!")
-    # else:
-    #     print(f"total unannotated: {len(extractive_cases['unannotated'])}")
-    #     for case in extractive_cases["unannotated"]:
-    #         print(case["qid"])
-    #         print(case["best_ans"])
-    #         print("----")
-    # print(f"total unannotated: {len(extractive_cases['unannotated'])}")
