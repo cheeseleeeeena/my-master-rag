@@ -4,10 +4,10 @@
 SESH="expB5"
 
 # set project dir
-PROJECT_DIR="/workspace/P76125041/my-master-rag/experiments/B4"
+PROJECT_DIR="/dataspace/P76125041/my-master-rag/experiments/B4"
 
 # set huggingface cache dir
-HF_HOME_DIR="/workspace/P76125041/.cache/"
+HF_HOME_DIR="/dataspace/P76125041/.cache/"
 
 # set conda environment name
 ENV_NAME="vllm5"
